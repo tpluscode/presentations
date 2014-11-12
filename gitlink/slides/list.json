@@ -5,5 +5,9 @@
         "the-problem.md",
         "the-problem-question.md"
     ],
+    [
+        "nuget.md",
+        "the-problem-question.md"
+    ],
     "end.md"
 ]
