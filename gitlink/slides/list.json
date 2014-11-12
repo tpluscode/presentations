@@ -6,9 +6,10 @@
         "the-problem-question.md"
     ],
     [
-        "nuget.md",
-        "nuget-way.md",
-        "nuget-way-how.md"
+        "nuget/nuget.md",
+        "nuget/the-way.md",
+        "nuget/breakdown.md",
+        "nuget/how.md"
     ],
     [
         "gitlink/gitlink.md",
