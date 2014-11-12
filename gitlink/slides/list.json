@@ -10,5 +10,10 @@
         "nuget-way.md",
         "nuget-way-how.md"
     ],
+    [
+        "gitlink/gitlink.md",
+        "gitlink/gitlink-features.md",
+        "gitlink/gitlink-usage.md"
+    ],
     "end.md"
 ]
