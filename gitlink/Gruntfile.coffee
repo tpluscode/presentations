@@ -80,19 +80,6 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        
-        buildcontrol:
-
-            options:
-                dir: 'dist'
-                commit: true
-                push: true
-                message: 'Built from %sourceCommit% on branch %sourceBranch%'
-            pages:
-                options:
-                    remote: 'git@github.com:tpluscode/gitlink-lightning-talk.git'
-                    branch: 'gh-pages'
-
         shell:
             pushGithubPages:
                 command: [
