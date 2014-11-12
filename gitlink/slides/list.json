@@ -1,5 +1,9 @@
 [
     "index.md",
     "author.html",
+    [
+        "the-problem.md",
+        "the-problem-question.md"
+    ],
     "end.md"
 ]
