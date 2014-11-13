@@ -8,8 +8,8 @@
     [
         "nuget/nuget.md",
         "nuget/the-way.md",
-        "nuget/breakdown.md",
-        "nuget/how.md"
+        "nuget/how.md",
+        "nuget/breakdown.md"
     ],
     [
         "gitlink/gitlink.md",
