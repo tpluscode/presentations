@@ -15,8 +15,10 @@
     [
         "gitlink/gitlink.md",
         "gitlink/features.md",
-        "gitlink/usage.md"
+        "gitlink/usage.md",
+        "demo.md",
+        "gitlink/providers.md",
+        "gitlink/gotchas.md"
     ],
-    "demo.md",
     "end.md"
 ]
