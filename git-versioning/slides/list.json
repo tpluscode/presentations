@@ -5,6 +5,12 @@
         "assembly-version.md",
         "assembly-version-s.md"
     ],
+    "calculating-versions.md",
+    [
+        "old-skool/the-way.md",
+        "old-skool/the-good.md",
+        "old-skool/the-bad.md"
+    ],
     "demo.md",
     "end.md"
 ]
