@@ -2,8 +2,8 @@
     "index.md",
     "author.html",
     [
-        "the-problem.md",
-        "the-problem-question.md"
+        "intro/the-problem.md",
+        "intro/question.md"
     ],
     [
         "nuget/nuget.md",
