@@ -1,0 +1,9 @@
+language: node_js
+env:
+  global:
+    - secure: "YZv/kz9REkPmm+XTOM913MaH3TcibhcZhrFZSQ0W6UXfON/BWvbwKRe/Ba84W2LvUjSqATh1ARU03OvkkUGH6dDFUWIkUbcoQyIvYbphPg0PF/zgIDngBT1cFt9I3iFqMDDbCH0UrgHeWuovr2pyXZ3NwtPbvVVV0hzmNimoxCA="
+install:
+  - 'npm install'
+  - 'bower install'
+  - 'npm install -g grunt-cli'
+script: grunt deploy
