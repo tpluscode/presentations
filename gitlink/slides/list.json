@@ -9,7 +9,8 @@
         "nuget/nuget.md",
         "nuget/the-way.md",
         "nuget/how.md",
-        "nuget/breakdown.md"
+        "nuget/breakdown.md",
+        "nuget/summary.md"
     ],
     [
         "gitlink/gitlink.md",
