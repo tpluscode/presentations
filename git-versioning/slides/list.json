@@ -1,6 +1,10 @@
 [
     "index.md",
     "author.html",
+    [
+        "assembly-version.md",
+        "assembly-version-s.md"
+    ],
     "demo.md",
     "end.md"
 ]
