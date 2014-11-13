@@ -7,6 +7,11 @@
     ],
     "calculating-versions.md",
     [
+        "calendar/the-way.md",
+        "calendar/the-good.md",
+        "calendar/the-bad.md"
+    ],
+    [
         "old-skool/the-way.md",
         "old-skool/the-good.md",
         "old-skool/the-bad.md"
