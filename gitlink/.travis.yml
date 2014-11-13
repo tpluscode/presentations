@@ -1,8 +1,8 @@
 language: node_js
 env:
   global:
-    - TRAVIS_SECURE_ENV_VARS: true
-    - secure: "Sp7OrOXIJTy6Vy01nt5UTlTkRkZNZsRzFQzqeSdT31XXfOQpXq+NcVyax8nNp572c9CyNYjWnytzfMEKj+GjB6+9iPCI1fpXqUQ0CnkAZ2fa86aLjpWpnSFwd2IQY2TM2uP35IB33rCjDeJKA83YCY9w7oR8AAq6GVmqYunsXO0="
+    - secure: "FM+R+4l3BXlGD4Av2l1cTYr9JZ7bDXyFmlhxgSuG1B0VBu4j/IXzwIKEVjU906vpxOtlTWtgpTDNAVtusRTF0bYR78+l8FgCzzjyGOlNZEEp+jX4m7A9O9NlYkI6Fa+M6u0rhgBw4zKz4watkkOb/YYdXwk7g2z0/NNKEyNZPGg="
+YYdXwk7g2z0/NNKEyNZPGg="
 install:
   - 'npm install'
   - 'bower install'
