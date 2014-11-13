@@ -13,8 +13,8 @@
     ],
     [
         "gitlink/gitlink.md",
-        "gitlink/gitlink-features.md",
-        "gitlink/gitlink-usage.md"
+        "gitlink/features.md",
+        "gitlink/usage.md"
     ],
     "end.md"
 ]
