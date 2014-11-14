@@ -1,4 +1,3 @@
-## The MSbuild way
 ### The bad
 
 1. Meaningless build and revision

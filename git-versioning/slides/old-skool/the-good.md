@@ -1,4 +1,3 @@
-## The old skool way
 ### The good
 
 1. Build number can precisely identify build setup

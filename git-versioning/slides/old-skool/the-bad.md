@@ -1,4 +1,3 @@
-## The old skool way
 ### The bad
 
 1. 65k limit - won't work with large/old repository
