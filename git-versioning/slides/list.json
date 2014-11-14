@@ -26,6 +26,11 @@
         "zoltu/the-good.md",
         "zoltu/the-bad.md"
     ],
-    "demo.md",
+    [
+        "gitversion/index.md",
+        "gitversion/how.md",
+        "gitversion/the-good.md",
+        "gitversion/the-bad.md"
+    ],
     "end.md"
 ]
