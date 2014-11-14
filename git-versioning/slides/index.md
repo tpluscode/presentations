@@ -4,4 +4,4 @@
 <br/>
 <br/>
 <a href="https://github.com/tpluscode/git-versioning-presentation"><i class="fa fa-github"></i></a>
-http://git-versioning.t-code.pl/
+git-versioning.t-code.pl/
