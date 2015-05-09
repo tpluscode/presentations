@@ -1,7 +1,6 @@
 [
     "index.md",
     "me.md",
-    "demos.md",
     [
         "issues/index.html",
         "issues/versions.html",
@@ -13,6 +12,8 @@
         "issues/tools-packages.html",
         "issues/sources.html"
     ],
+    "paket.md",
+    "demos.md",
     [
         "paket/index.html",
         "paket/versions.html",
