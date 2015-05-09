@@ -11,5 +11,15 @@
         "issues/semver.html",
         "issues/only-nuget.html",
         "issues/tools-packages.html"
+    ],
+    [
+        "paket/index.html",
+        "paket/versions.html",
+        "paket/target-framework.html",
+        "paket/powershell.html",
+        "paket/config.html",
+        "paket/semver.html",
+        "paket/only-nuget.html",
+        "paket/tools-packages.html"
     ]
 ]
