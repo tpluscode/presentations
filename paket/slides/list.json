@@ -10,7 +10,8 @@
         "issues/config.html",
         "issues/semver.html",
         "issues/only-nuget.html",
-        "issues/tools-packages.html"
+        "issues/tools-packages.html",
+        "issues/sources.html"
     ],
     [
         "paket/index.html",
@@ -20,6 +21,14 @@
         "paket/config.html",
         "paket/semver.html",
         "paket/only-nuget.html",
-        "paket/tools-packages.html"
+        "paket/tools-packages.html",
+        "paket/gotchas.html",
+        "paket/sources.html"
+    ],
+    [
+        "gotchas/index.html",
+        "gotchas/install-every-time.html",
+        "gotchas/content-files.html",
+        "gotchas/console.html"
     ]
 ]
