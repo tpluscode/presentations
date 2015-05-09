@@ -1,5 +1,15 @@
 [
     "index.md",
     "me.md",
-    "demos.md"
+    "demos.md",
+    [
+        "issues/index.html",
+        "issues/versions.html",
+        "issues/target-framework.html",
+        "issues/powershell.html",
+        "issues/config.html",
+        "issues/semver.html",
+        "issues/only-nuget.html",
+        "issues/tools-packages.html"
+    ]
 ]
