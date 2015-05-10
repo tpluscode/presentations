@@ -24,7 +24,6 @@
         "paket/semver.md",
         "paket/only-nuget.md",
         "paket/tools-packages.md",
-        "paket/gotchas.md",
         "paket/sources.md"
     ],
     [
