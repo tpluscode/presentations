@@ -1,4 +1,4 @@
 ## Paket gotchas
-### Command-line interface only
+### Command-line interface
 
 * Is that really a problem?
