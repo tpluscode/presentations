@@ -31,5 +31,7 @@
         "gotchas/install-every-time.md",
         "gotchas/content-files.md",
         "gotchas/console.md"
-    ]
+    ],
+    "questions.md",
+    "thank-you.md"
 ]
