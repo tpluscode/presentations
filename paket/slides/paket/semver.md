@@ -1,4 +1,4 @@
-## Nuget Issues
+## Paket
 ### Solution to: Broken SemVer resolutions
 
 * Always install latest stable version

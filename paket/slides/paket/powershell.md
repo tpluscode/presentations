@@ -1,4 +1,4 @@
-## Nuget Issues
+## Paket
 ### Solution to: (un)install.ps1
 
 * Don't run scripts at all
