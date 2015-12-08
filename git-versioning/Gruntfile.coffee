@@ -3,45 +3,6 @@ module.exports = (grunt) ->
 
     grunt.initConfig
 
-        watch:
-
-            livereload:
-                options:
-                    livereload: true
-                files: [
-                    'git-versioning/index.html'
-                    'git-versioning/slides/{,*/}*.{md,html}'
-                    'git-versioning/js/*.js'
-                ]
-
-            index:
-                files: [
-                    'git-versioning/templates/_index.html'
-                    'git-versioning/templates/_section.html'
-                    'git-versioning/slides/list.json'
-                ]
-                tasks: ['buildIndex']
-
-            coffeelint:
-                files: ['git-versioning/Gruntfile.coffee']
-                tasks: ['coffeelint']
-
-            jshint:
-                files: ['git-versioning/js/*.js']
-                tasks: ['jshint']
-
-        connect:
-
-            livereload:
-                options:
-                    port: 9000
-                    # Change hostname to '0.0.0.0' to access
-                    # the server from outside.
-                    hostname: 'localhost'
-                    base: '.'
-                    open: true
-                    livereload: true
-
         coffeelint:
 
             options:
@@ -69,8 +30,7 @@ module.exports = (grunt) ->
                         'git-versioning/bower_components/**'
                         'git-versioning/js/**',
                         'git-versioning/img/**'
-                        'git-versioning/css/**',
-                        'git-versioning/CNAME'
+                        'git-versioning/css/**'
                     ]
                     dest: 'dist'
                 },{
@@ -79,18 +39,6 @@ module.exports = (grunt) ->
                     dest: 'dist'
                     filter: 'isFile'
                 }]
-
-        shell:
-            pushGithubPages:
-                command: [
-                  'chmod +x scripts/pushGhPages.sh',
-                  'sh scripts/pushGhPages.sh'
-                  ].join('&&')
-            prepareGithubPages:
-                command: [
-                  'chmod +x scripts/prepareGhPages.sh',
-                  'sh scripts/prepareGhPages.sh'
-                ].join('&&')
 
     # Load all grunt tasks.
     require('load-grunt-tasks')(grunt)
@@ -117,19 +65,6 @@ module.exports = (grunt) ->
             'jshint'
         ]
 
-    grunt.registerTask 'serve',
-        'Run presentation locally and start watch process (living document).', [
-            'buildIndex'
-            'connect:livereload'
-            'watch'
-        ]
-
-    grunt.registerTask 'server', ->
-        grunt.log.warn
-        'The `server` task has been deprecated.
-         Use `grunt serve` to start a server.'
-        grunt.task.run ['serve']
-
     grunt.registerTask 'dist',
         'Save presentation files to *dist* directory.', [
             'test'
@@ -137,17 +72,7 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-
-    grunt.registerTask 'deploy',
-        'Deploy to Github Pages', [
-            'shell:prepareGithubPages'
-            'dist'
-            'shell:pushGithubPages'
-        ]
-
-
     # Define default task.
     grunt.registerTask 'default', [
-        'test'
-        'server'
+        'dist'
     ]

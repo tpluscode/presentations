@@ -11,6 +11,7 @@ module.exports = (grunt) ->
 
                 src: [
                     'git-versioning/Gruntfile.coffee'
+                    'gitlink/Gruntfile.coffee'
                 ]
 
     grunt.loadNpmTasks('grunt-run-grunt')
