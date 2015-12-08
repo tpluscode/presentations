@@ -29,7 +29,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
         connect:
 
             livereload:
@@ -65,18 +65,18 @@ module.exports = (grunt) ->
                 files: [{
                     expand: true
                     src: [
-                        'slides/**'
-                        'bower_components/**'
-                        'js/**',
-                        'img/**'
-                        'css/**',
-                        'CNAME'
+                        'git-versioning/slides/**'
+                        'git-versioning/bower_components/**'
+                        'git-versioning/js/**',
+                        'git-versioning/img/**'
+                        'git-versioning/css/**',
+                        'git-versioning/CNAME'
                     ]
-                    dest: 'dist/'
+                    dest: '../dist/git-versioning'
                 },{
                     expand: true
-                    src: ['index.html']
-                    dest: 'dist/'
+                    src: ['git-versioning/index.html']
+                    dest: '../dist/git-versioning'
                     filter: 'isFile'
                 }]
 
@@ -98,9 +98,9 @@ module.exports = (grunt) ->
     grunt.registerTask 'buildIndex',
         'Build index.html from templates/_index.html and slides/list.json.',
         ->
-            indexTemplate = grunt.file.read 'templates/_index.html'
-            sectionTemplate = grunt.file.read 'templates/_section.html'
-            slides = grunt.file.readJSON 'slides/list.json'
+            indexTemplate = grunt.file.read 'git-versioning/templates/_index.html'
+            sectionTemplate = grunt.file.read 'git-versioning/templates/_section.html'
+            slides = grunt.file.readJSON 'git-versioning/slides/list.json'
 
             html = grunt.template.process indexTemplate, data:
                 slides:
@@ -109,7 +109,7 @@ module.exports = (grunt) ->
                     grunt.template.process sectionTemplate, data:
                         slide:
                             slide
-            grunt.file.write 'index.html', html
+            grunt.file.write 'git-versioning/index.html', html
 
     grunt.registerTask 'test',
         '*Lint* javascript and coffee files.', [
@@ -137,14 +137,14 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-    
+
     grunt.registerTask 'deploy',
         'Deploy to Github Pages', [
             'shell:prepareGithubPages'
             'dist'
             'shell:pushGithubPages'
         ]
-    
+
 
     # Define default task.
     grunt.registerTask 'default', [
