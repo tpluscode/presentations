@@ -6,12 +6,16 @@ module.exports = (grunt) ->
 
             dist:
                 options:
-                    task: ['dist']
                     base: '..'
 
                 src: [
                     'git-versioning/Gruntfile.coffee'
                     'gitlink/Gruntfile.coffee'
+                    'hydra/Gruntfile.coffee'
                 ]
 
     grunt.loadNpmTasks('grunt-run-grunt')
+
+    grunt.registerTask 'default', [
+        'run_grunt'
+    ]

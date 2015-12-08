@@ -19,6 +19,7 @@
     "node": ">=0.8.0"
   },
   "scripts": {
+    "postinstall": "find . -name \"bower.json\" -not -path \"*node_modules*\" -exec sh -c 'bower install --config.cwd=$(dirname {})' \\;",
     "test": "grunt test"
   }
 }

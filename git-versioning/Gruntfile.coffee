@@ -3,6 +3,10 @@ module.exports = (grunt) ->
 
     grunt.initConfig
 
+        'bower-install-simple':
+            options:
+                cwd: '.'
+
         coffeelint:
 
             options:
