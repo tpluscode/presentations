@@ -9,25 +9,25 @@ module.exports = (grunt) ->
                 options:
                     livereload: true
                 files: [
-                    'index.html'
-                    'slides/{,*/}*.{md,html}'
-                    'js/*.js'
+                    'git-versioning/index.html'
+                    'git-versioning/slides/{,*/}*.{md,html}'
+                    'git-versioning/js/*.js'
                 ]
 
             index:
                 files: [
-                    'templates/_index.html'
-                    'templates/_section.html'
-                    'slides/list.json'
+                    'git-versioning/templates/_index.html'
+                    'git-versioning/templates/_section.html'
+                    'git-versioning/slides/list.json'
                 ]
                 tasks: ['buildIndex']
 
             coffeelint:
-                files: ['Gruntfile.coffee']
+                files: ['git-versioning/Gruntfile.coffee']
                 tasks: ['coffeelint']
 
             jshint:
-                files: ['js/*.js']
+                files: ['git-versioning/js/*.js']
                 tasks: ['jshint']
 
         connect:
@@ -57,7 +57,7 @@ module.exports = (grunt) ->
             options:
                 jshintrc: '.jshintrc'
 
-            all: ['js/*.js']
+            all: ['git-versioning/js/*.js']
 
         copy:
 
@@ -72,11 +72,11 @@ module.exports = (grunt) ->
                         'git-versioning/css/**',
                         'git-versioning/CNAME'
                     ]
-                    dest: '../dist/git-versioning'
+                    dest: 'dist'
                 },{
                     expand: true
                     src: ['git-versioning/index.html']
-                    dest: '../dist/git-versioning'
+                    dest: 'dist'
                     filter: 'isFile'
                 }]
 
