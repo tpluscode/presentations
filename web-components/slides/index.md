@@ -3,5 +3,5 @@
 
 <br/>
 <br/>
-<a href="https://github.com/tpluscode/webcomponents-workshop/"><i class="fa fa-github"></i></a>
-web-components.t-code.pl
+<a href="https://github.com/tpluscode/presentations/tree/master/web-components"><i class="fa fa-github"></i></a>
+presentations.t-code.pl/web-components
