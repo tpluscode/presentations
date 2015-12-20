@@ -3,5 +3,5 @@
 
 <br/>
 <br/>
-<a href="https://github.com/tpluscode/jsonld-hydra-presentation/"><i class="fa fa-github"></i></a>
-hydra.t-code.pl
+<a href="https://github.com/tpluscode/presentations/tree/master/hydra"><i class="fa fa-github"></i></a>
+presentations.t-code.pl/hydra
