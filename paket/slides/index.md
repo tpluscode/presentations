@@ -3,5 +3,5 @@
 
 <br/>
 <br/>
-<a href="https://github.com/tpluscode/paket-presentation/"><i class="fa fa-github"></i></a>
-paket.t-code.pl
+<a href="https://github.com/tpluscode/presentations/tree/master/paket"><i class="fa fa-github"></i></a>
+presentations.t-code.pl/paket
