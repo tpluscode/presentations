@@ -1,0 +1,7 @@
+{
+  "name": "hateoas-as-if-you-meant-it",
+  "private": true,
+  "dependencies": {
+    "reveal.js": "~2.6.1"
+  }
+}
