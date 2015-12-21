@@ -12,6 +12,7 @@ module.exports = (grunt) ->
                     'git-versioning/Gruntfile.coffee'
                     'gitlink/Gruntfile.coffee'
                     'hydra/Gruntfile.coffee'
+                    'hateoas/Gruntfile.coffee'
                     'paket/Gruntfile.coffee'
                     'polymer-flux/Gruntfile.coffee'
                     'web-components/Gruntfile.coffee'
