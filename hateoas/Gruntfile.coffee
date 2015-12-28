@@ -1,6 +1,8 @@
 # Generated on 2014-09-05 using generator-reveal 0.3.9
 module.exports = (grunt) ->
 
+    grunt.file.setBase '..'
+
     grunt.initConfig
 
         coffeelint:
@@ -18,7 +20,7 @@ module.exports = (grunt) ->
             options:
                 jshintrc: '.jshintrc'
 
-            all: ['hydra/js/*.js']
+            all: ['hateoas/js/*.js']
 
         copy:
 
@@ -39,6 +41,14 @@ module.exports = (grunt) ->
                     dest: 'dist'
                     filter: 'isFile'
                 }]
+
+        watch:
+            reveal:
+                files: [
+                    'hateoas/slides/**/*.*',
+                    'hateoas/templates/*.*'
+                ]
+                tasks: [ 'run_grunt:build' ]
 
     # Load all grunt tasks.
     require('load-grunt-tasks')(grunt)

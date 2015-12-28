@@ -1,6 +1,8 @@
 # Generated on 2014-09-05 using generator-reveal 0.3.9
 module.exports = (grunt) ->
 
+    grunt.file.setBase '..'
+
     grunt.initConfig
 
         coffeelint:
