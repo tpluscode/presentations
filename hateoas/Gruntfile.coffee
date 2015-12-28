@@ -46,7 +46,9 @@ module.exports = (grunt) ->
             reveal:
                 files: [
                     'hateoas/slides/**/*.*',
-                    'hateoas/templates/*.*'
+                    'hateoas/templates/*.*',
+                    'hateoas/css/*.*',
+                    'hateoas/js/*.*'
                 ]
                 tasks: [ 'run_grunt:build' ]
 
