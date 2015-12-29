@@ -6,6 +6,9 @@
         "rest/index.md",
         "rest/fielding.md",
         "rest/definition.md",
-        "rest/constraints.md"
+        "rest/alt-definition.md",
+        "rest/constraints.md",
+        "rest/missing-constraint.md",
+        "rest/uniform-iface.md"
     ]
 ]
