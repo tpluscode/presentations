@@ -10,5 +10,18 @@
         "rest/constraints.md",
         "rest/missing-constraint.md",
         "rest/uniform-iface.md"
+    ],
+    "misconceptions/index.md",
+    [
+        "misconceptions/identifiers.md"
+    ],
+    [
+        "misconceptions/manipulation.md"
+    ],
+    [
+        "misconceptions/self-descriptive.md"
+    ],
+    [
+        "misconceptions/self-descriptive.md"
     ]
 ]

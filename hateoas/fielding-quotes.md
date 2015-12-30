@@ -5,6 +5,8 @@ REST components perform actions on a resource by using a representation to captu
 resource and transferring that representation between components. A representation is a sequence of bytes, plus
 representation metadata to describe those bytes.
 
+Whether the representation is in the same format as the raw source, or is derived from the source, remains hidden behind the interface
+
 REST concentrates all of the control state into the representations received in response to interactions
 
 The model application is therefore an engine that moves from one state to the next by examining and choosing from among
