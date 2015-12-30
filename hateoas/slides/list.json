@@ -13,7 +13,11 @@
     ],
     "misconceptions/index.md",
     [
-        "misconceptions/identifiers.md"
+        "misconceptions/identifiers.md",
+        "misconceptions/restangular.md",
+        "misconceptions/restangular2.md",
+        "misconceptions/client-routing.md",
+        "misconceptions/uri-conventions.md"
     ],
     [
         "misconceptions/manipulation.md"
@@ -22,6 +26,6 @@
         "misconceptions/self-descriptive.md"
     ],
     [
-        "misconceptions/self-descriptive.md"
+        "misconceptions/hateoas.md"
     ]
 ]
