@@ -6,3 +6,7 @@
 
 <!-- .element class="attribution" -->
 from Roy Fielding's dissertation
+
+Note:
+
+to tak naprawdę jedyny konieczny wymóg w 'uniform interface', ponieważ jest sumą pozostałych
