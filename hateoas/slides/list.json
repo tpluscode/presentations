@@ -23,7 +23,8 @@
         "misconceptions/manipulation.md"
     ],
     [
-        "misconceptions/self-descriptive.md"
+        "misconceptions/self-descriptive.md",
+        "misconceptions/client-side-bl.md"
     ],
     [
         "misconceptions/hateoas.md"
