@@ -5,7 +5,7 @@
     <button on-click="postForm">Save</button>
 </form>
 ```
-<pre class="fragment"><code class="js">this.postForm = function() {
+<pre class="fragment"><code class="javascript">this.postForm = function() {
     if((theResource.isDraft && permissions.canSave) === false) {
         return false;
     }

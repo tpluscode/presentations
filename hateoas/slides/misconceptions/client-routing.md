@@ -1,13 +1,13 @@
-### Example 2: Client-side routing
+### Exhibit 2: Client-side routing
 
-``` js
+``` javascript
 $routeProvider
   .when('/Book/:bookId', {
     templateUrl: 'book.html'
   })
 ```
 
-``` js
+``` javascript
 $stateProvider
   .state('state1', {
     url: "/state1"
@@ -20,5 +20,4 @@ Angular's [ng-router](https://docs.angularjs.org/api/ngRoute/service/$route#exam
 
 Note:
 
-coupling jak wyżej; klient polega na strukture URLi i (co gorsza!) przyjmuje na ich podstawie
-założenia co do zawartości
+coupling jak wyżej; klient polega na strukturze URLi i (co gorsza) przyjmuje na ich podstawie założenia co do zawartości
