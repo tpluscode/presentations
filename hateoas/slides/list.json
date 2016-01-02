@@ -32,6 +32,7 @@
     ],
     [
         "hateoas-aiymi/index.md",
-        "hateoas-aiymi/use-url.md"
+        "hateoas-aiymi/use-url.md",
+        "hateoas-aiymi/use-headers.md"
     ]
 ]
