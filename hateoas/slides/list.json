@@ -29,5 +29,9 @@
     ],
     [
         "misconceptions/hateoas.md"
+    ],
+    [
+        "hateoas-aiymi/index.md",
+        "hateoas-aiymi/use-url.md"
     ]
 ]
