@@ -1,4 +1,4 @@
-### Client-side business logic
+### Exhibit 4: Client-side business logic
 
 ``` html
 <form>
