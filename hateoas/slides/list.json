@@ -34,6 +34,7 @@
         "hateoas-aiymi/index.md",
         "hateoas-aiymi/use-url.md",
         "hateoas-aiymi/use-url2.md",
-        "hateoas-aiymi/use-headers.md"
+        "hateoas-aiymi/use-headers.md",
+        "hateoas-aiymi/empower-client.md"
     ]
 ]
