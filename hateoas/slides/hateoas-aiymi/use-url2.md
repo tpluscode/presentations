@@ -15,3 +15,8 @@ GET http://movies.sample/user/tpluskiewicz HTTP/1.1
     "/movie/14"
   ]
 }</code></pre>
+
+Note:
+
+Dzięki URL generowanym po stronie serwera klient nie musi się aktualizować, gdy zmienimy schemat. można nawet mieć wiele
+domen lub schematów

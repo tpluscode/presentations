@@ -1,10 +1,10 @@
-### Use HTTP headers
+### Use HTTP <span class="fragment" data-fragment-index="2">(Link)</span> headers
 
 ``` HTTP
 GET http://movies.sample/movie/10 HTTP/1.1
 ```
 
-<pre class="fragment"><code class="http">HTTP/1.1 200 OK
+<pre class="fragment" data-fragment-index="1"><code class="http">HTTP/1.1 200 OK
 
 Link: &lt;http://movies.sample/breadcrumbs?for=/movie/10>;
       rel="http://hateoas.api/breadcrumbs"

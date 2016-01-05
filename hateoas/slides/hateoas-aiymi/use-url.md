@@ -15,4 +15,7 @@ GET http://movies.sample/movie/10 HTTP/1.1
 }</code></pre>
 
 Note:
+
 first step
+
+osobista preferencja, żeby nie dodawać tablicy `Links` itp.
