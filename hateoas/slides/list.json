@@ -11,8 +11,8 @@
         "rest/missing-constraint.md",
         "rest/uniform-iface.md"
     ],
-    "misconceptions/index.md",
     [
+        "misconceptions/index.md",
         "misconceptions/identifiers.md",
         "misconceptions/restangular.md",
         "misconceptions/restangular2.md",
