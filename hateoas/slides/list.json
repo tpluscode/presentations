@@ -66,6 +66,36 @@
             "attr": {
                 "data-background": "img/hydra.jpg"
             }
+        },
+        {
+            "filename": "linked-data/hydra-distributed.md",
+            "attr": {
+                "data-background": "img/hydra.jpg"
+            }
+        },
+        {
+            "filename": "linked-data/hydra-documentation.md",
+            "attr": {
+                "data-background": "img/hydra.jpg"
+            }
+        },
+        {
+            "filename": "linked-data/hydra-documentation-class.md",
+            "attr": {
+                "data-background": "img/hydra.jpg"
+            }
+        },
+        {
+            "filename": "linked-data/hydra-documentation-property.md",
+            "attr": {
+                "data-background": "img/hydra.jpg"
+            }
+        },
+        {
+            "filename": "linked-data/hydra-documentation-operation.md",
+            "attr": {
+                "data-background": "img/hydra.jpg"
+            }
         }
     ]
 ]
