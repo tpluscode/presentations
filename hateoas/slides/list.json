@@ -40,9 +40,20 @@
     ],
     [
         "linked-data/index.md",
-        "linked-data/linked-data.md",
+        {
+            "filename": "linked-data/linked-data.md",
+            "attr": {
+                "data-background": "img/LOD_Cloud_2014.svg.png",
+                "data-background-opaque": "true"
+            }
+        },
         "linked-data/json-ld.md",
         "linked-data/json-ld-expanded.md",
-        "linked-data/hydra.md"
+        {
+            "filename": "linked-data/hydra.md",
+            "attr": {
+                "data-background": "img/hydra.jpg"
+            }
+        }
     ]
 ]

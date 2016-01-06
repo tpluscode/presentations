@@ -7,10 +7,3 @@
     font-family: 'FontAwesome';
     font-style: normal;
 }
-
-.reveal .slides section .attribution {
-    position:absolute;
-    bottom:-50px;
-    right:0;
-    font-size:0.5em
-}
