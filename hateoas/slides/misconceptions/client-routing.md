@@ -14,6 +14,9 @@ $stateProvider
   })
 ```
 
+<!-- .element class="fragment" -->
+So how route URL corresponds to resource identifier?
+
 <!-- .element class="attribution" -->
 Angular's [ng-router](https://docs.angularjs.org/api/ngRoute/service/$route#example) and
 [ui-router](https://github.com/angular-ui/ui-router) respectively

@@ -8,5 +8,6 @@ from Roy Fielding's dissertation
 
 Note:
 
-coupling: idąc na skróty, często "na sztywno" tworzymy ciało zapytań po stronie klienta
-co, gdy zmienią się wymagania serwera?
+coupling: idąc na skróty, często "na sztywno" tworzymy ciało requestów po stronie klienta
+
+co, gdy zmienią się wymagania serwera? to jes powiązane z kolejnym wymaganiem (self-descriptive)
