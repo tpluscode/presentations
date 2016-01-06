@@ -96,6 +96,8 @@
             "attr": {
                 "data-background": "img/hydra.jpg"
             }
-        }
+        },
+        "linked-data/hydra-documentation-summary.md",
+        "linked-data/summary.md"
     ]
 ]
