@@ -60,6 +60,12 @@
             "attr": {
                 "data-background": "img/hydra.jpg"
             }
+        },
+        {
+            "filename": "linked-data/hydra-inline.md",
+            "attr": {
+                "data-background": "img/hydra.jpg"
+            }
         }
     ]
 ]
