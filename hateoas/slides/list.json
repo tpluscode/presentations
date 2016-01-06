@@ -17,18 +17,15 @@
         "misconceptions/restangular.md",
         "misconceptions/restangular2.md",
         "misconceptions/client-routing.md",
-        "misconceptions/uri-conventions.md"
-    ],
-    [
+        "misconceptions/uri-conventions.md",
         "misconceptions/manipulation.md",
-        "misconceptions/manipulation2.md"
-    ],
-    [
+        "misconceptions/manipulation2.md",
         "misconceptions/self-descriptive.md",
-        "misconceptions/client-side-bl.md"
-    ],
-    [
-        "misconceptions/hateoas.md"
+        "misconceptions/client-side-bl.md",
+        "misconceptions/hateoas.md",
+        "misconceptions/documentation.md",
+        "misconceptions/documentation2.md",
+        "misconceptions/documentation3.md"
     ],
     [
         "hateoas-aiymi/index.md",
