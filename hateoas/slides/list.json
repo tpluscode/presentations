@@ -37,5 +37,12 @@
         "hateoas-aiymi/server-drives-interaction2.md",
         "hateoas-aiymi/resource-based-routing.md",
         "hateoas-aiymi/resource-based-routing2.md"
+    ],
+    [
+        "linked-data/index.md",
+        "linked-data/linked-data.md",
+        "linked-data/json-ld.md",
+        "linked-data/json-ld-expanded.md",
+        "linked-data/hydra.md"
     ]
 ]
