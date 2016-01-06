@@ -54,6 +54,12 @@
             "attr": {
                 "data-background": "img/hydra.jpg"
             }
+        },
+        {
+            "filename": "linked-data/hydra2.md",
+            "attr": {
+                "data-background": "img/hydra.jpg"
+            }
         }
     ]
 ]
