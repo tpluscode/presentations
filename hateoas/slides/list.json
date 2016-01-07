@@ -24,20 +24,27 @@
     [
         "misconceptions/index.md",
         {
-                "filename": "misconceptions/identifiers.md",
-                "attr": {
-                    "data-background": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Fingerprints_taken_by_William_James_Herschel_1859-1860.jpg"
-                }
-            },
+            "filename": "misconceptions/identifiers.md",
+            "attr": {
+                "data-background": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Fingerprints_taken_by_William_James_Herschel_1859-1860.jpg"
+            }
+        },
         "misconceptions/restangular.md",
         "misconceptions/restangular2.md",
         "misconceptions/client-routing.md",
         "misconceptions/uri-conventions.md",
-        "misconceptions/manipulation.md",
+        {
+            "filename": "misconceptions/manipulation.md"
+        },
         "misconceptions/manipulation2.md",
         "misconceptions/self-descriptive.md",
+        {
+            "filename": "misconceptions/hateoas.md",
+            "attr": {
+                "data-background": "https://pixabay.com/static/uploads/photo/2014/12/11/18/07/remote-control-564462_960_720.jpg"
+            }
+        },
         "misconceptions/client-side-bl.md",
-        "misconceptions/hateoas.md",
         "misconceptions/documentation.md",
         "misconceptions/documentation2.md",
         "misconceptions/documentation3.md"

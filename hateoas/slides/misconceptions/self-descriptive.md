@@ -7,6 +7,7 @@ from Roy Fielding's dissertation
 
 Note:
 
-"message contains all metadata, which describes syntax and semantics of data"
+"message contains all metadata, which describes syntax and semantics of data". do tego wliczają się:
 
-następne: "co się dzieje z klientem, gdy serwer nie spełnia tego wymagania?"
+* ETag/cache
+* content negotiation

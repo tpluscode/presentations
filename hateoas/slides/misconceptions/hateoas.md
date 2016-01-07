@@ -9,7 +9,8 @@ from Roy Fielding's dissertation
 
 Note:
 
-to tak naprawdę 'uniform interface', mógłby się nazywać HATEOAS:
+to tak naprawdę 'uniform interface', mógłby się nazywać HATEOAS, ponieważ pozostałe wymagania uniform interface nie
+dają się w pełni zrealizować bez kompletnego opisu przejść między stanami
 
 1. URL jako wskaźniki do operacji
 1. przejście między stanami za pomocą reprezentacji
