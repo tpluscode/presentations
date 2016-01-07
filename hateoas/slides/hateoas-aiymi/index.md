@@ -3,6 +3,7 @@
 
 Note:
 
-należy traktować jako rady
+należy traktować jako rady i moje prywatne opinie
 
-kilka pierwszych dotyczy zasobów i reprezentacji, a dwie kolejne będą dotyczyć implementacji klienta
+1. zasoby i reprezentacja
+1. implementacji klienta

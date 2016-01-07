@@ -17,4 +17,5 @@
 Note:
 
 tzw. out-of-band information. nie wolno wymagać od klienta tej wiedzy
+
 nie tak działa web

@@ -4,16 +4,11 @@
 * Stateless
 * Cacheable
 * Layered system
+* <span class="fragment">Code on demand</span> <span class="fragment">(optional)</span>
 
-<p class="fragment">
-There is also
-<ul class="fragment"><li>Code on demand <span class="fragment">(optional)</span></ul></li>
-</p>
-
-<aside class="notes">
+Note:
 constraints jako wymagania, a nie ograniczenia
 
-client-server oraz stateless - rzadko łamane
-Cacheable - IMO zbyt rzadko używane
-Layered system - klient nie wie czy "mówi" bezpośrednio z pośrednikiem (proxy, itp)
-</aside>
+1. client-server oraz stateless - rzadko łamane
+1. Cacheable - IMO zbyt rzadko używane
+1. Layered system - klient nie wie czy "mówi" bezpośrednio z pośrednikiem (proxy, itp)

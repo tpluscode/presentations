@@ -10,4 +10,4 @@ Note:
 
 coupling: idąc na skróty, często "na sztywno" tworzymy ciało requestów po stronie klienta
 
-co, gdy zmienią się wymagania serwera? to jes powiązane z kolejnym wymaganiem (self-descriptive)
+co, gdy zmieni się kontrakt? to jest powiązane z kolejnym wymaganiem (self-descriptive)

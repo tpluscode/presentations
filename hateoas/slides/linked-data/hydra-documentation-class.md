@@ -9,7 +9,8 @@
       "@type": "Class",
       "supportedProperty": [
         {
-          "property": "http://movies.sample/api#tags"
+          "property": "http://movies.sample/api#tags",
+          "writable": false
         }
       ]
     }

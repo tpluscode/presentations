@@ -10,4 +10,4 @@
 
 Note:
 
-wbrew opisom, dokumentacja REST jest najczęściej "dla ludzi"
+wbrew zapewnieniom, dokumentacja REST jest najczęściej "dla ludzi"

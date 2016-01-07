@@ -9,6 +9,6 @@ Note:
 
 nacisk należy kłaść na opis media-type (składnia i semantyka) oraz narzędzia do implementacji klientów (tzn. przetwarzania reprezentacji w danym media-type)
 
-konieczna dokumentacja konkretnego API to tylko i wyłącznie relacje (Linki) oraz kształt reprezentacji (body requestów)
+konieczna dokumentacja konkretnego API to tylko i wyłącznie relacje (Linki) oraz kształt reprezentacji (kontrakt)
 
 podejście swagger i innych wzmacnia trend tworzenia klientów silnie powiązanych z serwerami

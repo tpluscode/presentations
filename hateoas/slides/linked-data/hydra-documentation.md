@@ -9,7 +9,7 @@
       "entrypoint": "http://movies.sample/home",
       "supportedClass": [
         "http://movies.sample/api#Movie",
-        "http://movies.sample/api#CreateTagRequest",
+        "http://movies.sample/api#CreateTagRequest"
       ]
     }
   ]

@@ -29,6 +29,7 @@
     ],
     [
         "hateoas-aiymi/index.md",
+        "hateoas-aiymi/haters-gonna-hate.md",
         "hateoas-aiymi/use-url.md",
         "hateoas-aiymi/use-url2.md",
         "hateoas-aiymi/use-headers.md",
@@ -36,10 +37,16 @@
         "hateoas-aiymi/server-drives-interaction.md",
         "hateoas-aiymi/server-drives-interaction2.md",
         "hateoas-aiymi/resource-based-routing.md",
-        "hateoas-aiymi/resource-based-routing2.md"
+        "hateoas-aiymi/resource-based-routing2.md",
+        "hateoas-aiymi/summary.md"
     ],
     [
-        "linked-data/index.md",
+        {
+            "filename": "linked-data/index.md",
+            "attr": {
+                "data-background": "img/no-spoon.jpg"
+            }
+        },
         {
             "filename": "linked-data/linked-data.md",
             "attr": {

@@ -3,7 +3,7 @@
 ``` json
 {
   "@context": "http://www.w3.org/ns/hydra/context.jsonld",
-  "@graph": [,
+  "@graph": [
     {
       "@id": "http://movies.sample/api#tags",
       "@type": "Link",

@@ -15,3 +15,5 @@ or
 Note:
 
 po raz wtóry, URI nie niesie semantycznego znaczenia. jest to tylko mapowanie na zasoby
+
+nie mówiąc o numerach wersji w URL
