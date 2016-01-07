@@ -5,15 +5,30 @@
     [
         "rest/index.md",
         "rest/fielding.md",
-        "rest/definition.md",
-        "rest/alt-definition.md",
+        {
+            "filename": "rest/definition.md",
+            "attr": {
+                "data-background": "https://upload.wikimedia.org/wikipedia/commons/d/d3/IBM_Blue_Gene_P_supercomputer.jpg"
+            }
+        },
+        {
+            "filename": "rest/alt-definition.md",
+            "attr": {
+                "data-background": "https://c2.staticflickr.com/2/1158/1127762669_4f850c3067_b.jpg"
+            }
+        },
         "rest/constraints.md",
         "rest/missing-constraint.md",
         "rest/uniform-iface.md"
     ],
     [
         "misconceptions/index.md",
-        "misconceptions/identifiers.md",
+        {
+                "filename": "misconceptions/identifiers.md",
+                "attr": {
+                    "data-background": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Fingerprints_taken_by_William_James_Herschel_1859-1860.jpg"
+                }
+            },
         "misconceptions/restangular.md",
         "misconceptions/restangular2.md",
         "misconceptions/client-routing.md",
