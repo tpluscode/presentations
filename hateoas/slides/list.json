@@ -19,7 +19,8 @@
         },
         "rest/constraints.md",
         "rest/missing-constraint.md",
-        "rest/uniform-iface.md"
+        "rest/uniform-iface.md",
+        "rest/summary.md"
     ],
     [
         "misconceptions/index.md",
@@ -46,7 +47,13 @@
         "misconceptions/client-side-bl.md",
         "misconceptions/documentation.md",
         "misconceptions/documentation2.md",
-        "misconceptions/documentation3.md"
+        "misconceptions/documentation3.md",
+        {
+            "filename": "misconceptions/summary.md",
+            "attr": {
+                "data-background": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Magnifying_glass_with_focus_on_paper.png"
+            }
+        }
     ],
     [
         "hateoas-aiymi/index.md",
