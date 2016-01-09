@@ -51,7 +51,36 @@
     ],
     [
         "hateoas-aiymi/index.md",
-        "hateoas-aiymi/haters-gonna-hate.md",
+        {
+            "filename": "hateoas-aiymi/haters-gonna-hate.md",
+            "attr": {
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "hateoas-aiymi/haters-gonna-hateoas.md",
+            "attr": {
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "hateoas-aiymi/haters-gonna-hateohs.md",
+            "attr": {
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "hateoas-aiymi/haters-gonna-hateoats.md",
+            "attr": {
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "hateoas-aiymi/haters-gonna-hateoass.md",
+            "attr": {
+                "data-transition": "none"
+            }
+        },
         "hateoas-aiymi/use-url.md",
         "hateoas-aiymi/use-url2.md",
         "hateoas-aiymi/use-headers.md",
