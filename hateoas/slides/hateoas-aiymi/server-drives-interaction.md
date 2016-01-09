@@ -1,14 +1,23 @@
 ### Server-driven interaction
 
 <!-- .element: class="fragment" -->
-Representations <span class="fragment highlight-red">are</span> application state
+Tell clients how to do things
 
-<!-- .element: class="fragment" -->
-Why not select appropriate UI based on their content?
+<pre class="fragment"><code class="http">GET http://movies.sample/movie/10 HTTP/1.1
 
-<!-- .element class="attribution" -->
-[Where is my state?](http://ruben.verborgh.org/blog/2012/08/24/rest-wheres-my-state/) by Ruben Verborgh
+{
+  "actions": [{
+    "method": "POST",
+    "rel": "addToFavourites",
+    "URL": "http://movies.sample/users/tpluskiewicz/favourites",
+    "parameters": {
+      "movie": "http://movies.sample/movie/10"
+    }
+  }]
+}</code></pre>
 
 Note:
 
-a application state to stan klienta
+URL wystarczą tylko na GET
+
+nawet bez "znanego" media-type można dodawać wedle potrzeb bogatszy opis interakcji

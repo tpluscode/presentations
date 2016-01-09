@@ -41,7 +41,7 @@
         {
             "filename": "misconceptions/hateoas.md",
             "attr": {
-                "data-background": "https://pixabay.com/static/uploads/photo/2014/12/11/18/07/remote-control-564462_960_720.jpg"
+                "data-background": "https://static.pexels.com/photos/5485/handwritten-italian-marketing-menu.jpg"
             }
         },
         "misconceptions/client-side-bl.md",
@@ -95,9 +95,9 @@
                 "data-background": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Puzzle_black-white_missing.jpg/1280px-Puzzle_black-white_missing.jpg"
             }
         },
-        "hateoas-aiymi/empower-client.md",
         "hateoas-aiymi/server-drives-interaction.md",
-        "hateoas-aiymi/server-drives-interaction2.md",
+        "hateoas-aiymi/server-drives-ui.md",
+        "hateoas-aiymi/server-drives-ui2.md",
         "hateoas-aiymi/resource-based-routing.md",
         "hateoas-aiymi/resource-based-routing2.md",
         "hateoas-aiymi/summary.md"
@@ -124,48 +124,13 @@
                 "data-background": "img/hydra.jpg"
             }
         },
-        {
-            "filename": "linked-data/hydra2.md",
-            "attr": {
-                "data-background": "img/hydra.jpg"
-            }
-        },
-        {
-            "filename": "linked-data/hydra-inline.md",
-            "attr": {
-                "data-background": "img/hydra.jpg"
-            }
-        },
-        {
-            "filename": "linked-data/hydra-distributed.md",
-            "attr": {
-                "data-background": "img/hydra.jpg"
-            }
-        },
-        {
-            "filename": "linked-data/hydra-documentation.md",
-            "attr": {
-                "data-background": "img/hydra.jpg"
-            }
-        },
-        {
-            "filename": "linked-data/hydra-documentation-class.md",
-            "attr": {
-                "data-background": "img/hydra.jpg"
-            }
-        },
-        {
-            "filename": "linked-data/hydra-documentation-property.md",
-            "attr": {
-                "data-background": "img/hydra.jpg"
-            }
-        },
-        {
-            "filename": "linked-data/hydra-documentation-operation.md",
-            "attr": {
-                "data-background": "img/hydra.jpg"
-            }
-        },
+        "linked-data/hydra2.md",
+        "linked-data/hydra-inline.md",
+        "linked-data/hydra-distributed.md",
+        "linked-data/hydra-documentation.md",
+        "linked-data/hydra-documentation-class.md",
+        "linked-data/hydra-documentation-property.md",
+        "linked-data/hydra-documentation-operation.md",
         "linked-data/hydra-documentation-summary.md",
         "linked-data/summary.md"
     ],

@@ -1,4 +1,4 @@
-### Server-driven interaction
+### Server-driven UI
 
 <pre class="fragment"><code class="http">GET http://movies.sample/movie/10 HTTP/1.1
 
