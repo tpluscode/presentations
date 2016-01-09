@@ -12,3 +12,7 @@ section[data-background-opaque] {
     padding-top: 50px;
     padding-right: 20px;
 }
+
+.print-pdf .reveal .slide-background {
+    opacity: 0.2!important;
+}
