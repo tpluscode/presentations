@@ -3,4 +3,6 @@
 
 Note:
 
+mówiąc o API, mówimy po prostu o zasobach, z którymi można wchodzić w interakcję
+
 dla ułatwienia jednak dalej będę korzystał z określenia API

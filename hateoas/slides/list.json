@@ -29,13 +29,11 @@
                 "data-background": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Fingerprints_taken_by_William_James_Herschel_1859-1860.jpg"
             }
         },
+        "misconceptions/uri-conventions.md",
         "misconceptions/restangular.md",
         "misconceptions/restangular2.md",
         "misconceptions/client-routing.md",
-        "misconceptions/uri-conventions.md",
-        {
-            "filename": "misconceptions/manipulation.md"
-        },
+        "misconceptions/manipulation.md",
         "misconceptions/manipulation2.md",
         "misconceptions/self-descriptive.md",
         {

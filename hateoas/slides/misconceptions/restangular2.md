@@ -1,4 +1,4 @@
-### Exhibit 1: Restangular
+### Exhibit 2: Restangular
 
 ``` javascript
 // Chain methods together to easily build complex requests

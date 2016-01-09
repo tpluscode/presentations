@@ -1,4 +1,4 @@
-### Exhibit 1: Restangular
+### Exhibit 2: Restangular
 
 > AngularJS service to handle Rest API Restful Resources properly and easily
 

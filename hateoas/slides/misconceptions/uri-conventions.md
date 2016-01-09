@@ -1,4 +1,4 @@
-### Exhibit 3: 'Plural or singular'
+### Exhibit 1: 'Plural or singular'
 
 Needless debate about URI structure
 

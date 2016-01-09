@@ -1,4 +1,4 @@
-### Exhibit 2: Client-side routing
+### Exhibit 3: Client-side routing
 
 ``` javascript
 $routeProvider
