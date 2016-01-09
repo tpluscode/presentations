@@ -11,8 +11,6 @@ Link: &lt;http://movies.sample/breadcrumbs?for=/movie/10>;
 Link: &lt;http://movies.sample/unathorized_menu>;
       rel="http://hateoas.api/navigation/menu"</code></pre>
 
-todo: lego background
-
 Note:
 strona może składać się z wielu elementów (menu, box logowania, breadcrumb)
 

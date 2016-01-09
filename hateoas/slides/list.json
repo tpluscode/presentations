@@ -89,7 +89,12 @@
         },
         "hateoas-aiymi/use-url.md",
         "hateoas-aiymi/use-url2.md",
-        "hateoas-aiymi/use-headers.md",
+        {
+            "filename": "hateoas-aiymi/use-headers.md",
+            "attr": {
+                "data-background": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Puzzle_black-white_missing.jpg/1280px-Puzzle_black-white_missing.jpg"
+            }
+        },
         "hateoas-aiymi/empower-client.md",
         "hateoas-aiymi/server-drives-interaction.md",
         "hateoas-aiymi/server-drives-interaction2.md",
