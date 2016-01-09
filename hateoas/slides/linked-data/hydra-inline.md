@@ -30,4 +30,4 @@ Note:
 tu widać dwie ważne przewagi JSON-LD+Hydra:
 
 1. pobierając `/movie/10/tags`, możemy pobrane dane "złączyć" z powyższym dokumentem i otrzymać większy dokument - to istota Linked Data
-1. operacje można definiować w głębi drzewa bez kombinacji ze strukturą "czytego dokumentu" (żadnych `inline`, `_embedded` itp)
+1. linki/operacje można definiować w głębi drzewa bez kombinacji ze strukturą "czytego dokumentu" (żadnych `inline`, `_embedded` itp)

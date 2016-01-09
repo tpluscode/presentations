@@ -9,3 +9,5 @@ from Roy Fielding's dissertation
 Note:
 
 well, the server can 'understand' it when it is minted
+
+tak na prawdę nie mają znaczenia nawet czasowniki

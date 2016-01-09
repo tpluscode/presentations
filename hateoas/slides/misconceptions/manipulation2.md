@@ -8,4 +8,6 @@ from Roy Fielding's dissertation
 
 Note:
 
+Dlatego to się nazywa reprezentacją zasobu
+
 CQRS/ES anyone?
