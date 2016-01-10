@@ -1,5 +1,140 @@
 [
     "index.md",
     "author.html",
-    "agenda.md"
+    "agenda.md",
+    [
+        "rest/index.md",
+        "rest/fielding.md",
+        {
+            "filename": "rest/definition.md",
+            "attr": {
+                "data-background": "img/IBM_Blue_Gene_P_supercomputer.jpg"
+            }
+        },
+        {
+            "filename": "rest/alt-definition.md",
+            "attr": {
+                "data-background": "img/crossroads.jpg"
+            }
+        },
+        "rest/constraints.md",
+        "rest/missing-constraint.md",
+        "rest/uniform-iface.md",
+        "rest/summary.md"
+    ],
+    [
+        "misconceptions/index.md",
+        {
+            "filename": "misconceptions/identifiers.md",
+            "attr": {
+                "data-background": "img/Fingerprints_taken_by_William_James_Herschel_1859-1860.jpg"
+            }
+        },
+        "misconceptions/uri-conventions.md",
+        "misconceptions/restangular.md",
+        "misconceptions/restangular2.md",
+        "misconceptions/client-routing.md",
+        "misconceptions/manipulation.md",
+        "misconceptions/manipulation-mistakes.md",
+        "misconceptions/manipulation2.md",
+        "misconceptions/self-descriptive.md",
+        {
+            "filename": "misconceptions/hateoas.md",
+            "attr": {
+                "data-background": "img/handwritten-italian-marketing-menu.jpg"
+            }
+        },
+        "misconceptions/client-side-bl.md",
+        "misconceptions/documentation.md",
+        "misconceptions/documentation2.md",
+        "misconceptions/documentation3.md",
+        {
+            "filename": "misconceptions/summary.md",
+            "attr": {
+                "data-background": "img/Magnifying_glass_with_focus.jpg"
+            }
+        }
+    ],
+    [
+        "hateoas-aiymi/index.md",
+        {
+            "filename": "hateoas-aiymi/haters-gonna-hate.md",
+            "attr": {
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "hateoas-aiymi/haters-gonna-hateoas.md",
+            "attr": {
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "hateoas-aiymi/haters-gonna-hateohs.md",
+            "attr": {
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "hateoas-aiymi/haters-gonna-hateoats.md",
+            "attr": {
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "hateoas-aiymi/haters-gonna-hateoass.md",
+            "attr": {
+                "data-transition": "none"
+            }
+        },
+        "hateoas-aiymi/use-url.md",
+        "hateoas-aiymi/use-url2.md",
+        {
+            "filename": "hateoas-aiymi/use-headers.md",
+            "attr": {
+                "data-background": "img/Puzzle_black-white_missing.jpg"
+            }
+        },
+        "hateoas-aiymi/server-drives-interaction.md",
+        "hateoas-aiymi/server-drives-ui.md",
+        "hateoas-aiymi/server-drives-ui2.md",
+        "hateoas-aiymi/resource-based-routing.md",
+        "hateoas-aiymi/resource-based-routing2.md",
+        "hateoas-aiymi/summary.md"
+    ],
+    [
+        {
+            "filename": "linked-data/index.md",
+            "attr": {
+                "data-background": "img/no-spoon.jpg"
+            }
+        },
+        {
+            "filename": "linked-data/linked-data.md",
+            "attr": {
+                "data-background": "img/LOD_Cloud_2014.svg.gif",
+                "data-background-opaque": "true"
+            }
+        },
+        "linked-data/json-ld.md",
+        "linked-data/json-ld-expanded.md",
+        {
+            "filename": "linked-data/hydra.md",
+            "attr": {
+                "data-background": "img/hydra.jpg"
+            }
+        },
+        "linked-data/hydra2.md",
+        "linked-data/hydra-inline.md",
+        "linked-data/hydra-distributed.md",
+        "linked-data/hydra-documentation.md",
+        "linked-data/hydra-documentation-class.md",
+        "linked-data/hydra-documentation-property.md",
+        "linked-data/hydra-documentation-operation.md",
+        "linked-data/hydra-documentation-summary.md",
+        "linked-data/summary.md"
+    ],
+    "summary.md",
+    "thank-you.md",
+    "images.md"
 ]

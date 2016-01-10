@@ -1,0 +1,18 @@
+section[data-background] {
+    background-color: rgba(255,255,255,0.8);
+}
+
+section[data-background-opaque] {
+    background-color: rgba(255,255,255,1);
+}
+
+.reveal .slides section .attribution {
+    font-size: 0.5em;
+    text-align: right;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.print-pdf .reveal .slide-background {
+    opacity: 0.2!important;
+}
