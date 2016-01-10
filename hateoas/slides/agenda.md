@@ -1,8 +1,8 @@
 ## Agenda
 
 1. [REST recap](#/3)
-1. [Do you understand REST?](#/4)
-1. [You should mean hypermedia](#/5)
+1. [REST - the hard parts](#/4)
+1. [Mean hypermedia](#/5)
 1. [Beyond API](#/6)
 
 Note:
