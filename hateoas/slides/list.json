@@ -8,13 +8,13 @@
         {
             "filename": "rest/definition.md",
             "attr": {
-                "data-background": "https://upload.wikimedia.org/wikipedia/commons/d/d3/IBM_Blue_Gene_P_supercomputer.jpg"
+                "data-background": "img/IBM_Blue_Gene_P_supercomputer.jpg"
             }
         },
         {
             "filename": "rest/alt-definition.md",
             "attr": {
-                "data-background": "https://c2.staticflickr.com/2/1158/1127762669_4f850c3067_b.jpg"
+                "data-background": "img/crossroads.jpg"
             }
         },
         "rest/constraints.md",
@@ -27,7 +27,7 @@
         {
             "filename": "misconceptions/identifiers.md",
             "attr": {
-                "data-background": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Fingerprints_taken_by_William_James_Herschel_1859-1860.jpg"
+                "data-background": "img/Fingerprints_taken_by_William_James_Herschel_1859-1860.jpg"
             }
         },
         "misconceptions/uri-conventions.md",
@@ -41,7 +41,7 @@
         {
             "filename": "misconceptions/hateoas.md",
             "attr": {
-                "data-background": "https://static.pexels.com/photos/5485/handwritten-italian-marketing-menu.jpg"
+                "data-background": "img/handwritten-italian-marketing-menu.jpg"
             }
         },
         "misconceptions/client-side-bl.md",
@@ -51,7 +51,7 @@
         {
             "filename": "misconceptions/summary.md",
             "attr": {
-                "data-background": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Magnifying_glass_with_focus_on_paper.png"
+                "data-background": "img/Magnifying_glass_with_focus.jpg"
             }
         }
     ],
@@ -92,7 +92,7 @@
         {
             "filename": "hateoas-aiymi/use-headers.md",
             "attr": {
-                "data-background": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Puzzle_black-white_missing.jpg/1280px-Puzzle_black-white_missing.jpg"
+                "data-background": "img/Puzzle_black-white_missing.jpg"
             }
         },
         "hateoas-aiymi/server-drives-interaction.md",
@@ -112,7 +112,7 @@
         {
             "filename": "linked-data/linked-data.md",
             "attr": {
-                "data-background": "img/LOD_Cloud_2014.svg.png",
+                "data-background": "img/LOD_Cloud_2014.svg.gif",
                 "data-background-opaque": "true"
             }
         },
@@ -135,5 +135,6 @@
         "linked-data/summary.md"
     ],
     "summary.md",
-    "thank-you.md"
+    "thank-you.md",
+    "images.md"
 ]
