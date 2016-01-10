@@ -10,9 +10,9 @@ GET http://movies.sample/user/tpluskiewicz HTTP/1.1
 
 <pre class="fragment"><code class="json">{
   "favourites": [
-    "/movie/10",
-    "/movie/12",
-    "/movie/14"
+    "http://movies.sample/movie/10",
+    "http://movies.sample/movie/12",
+    "http://movies.sample/movie/14"
   ]
 }</code></pre>
 

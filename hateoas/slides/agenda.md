@@ -10,4 +10,4 @@ Note:
 1. krótkie przypomnienie czym jest REST
 1. zaprzeczenie powszechnych błędów w rozumieniu REST
 1. jak w tytule, czyli co można robić lepiej (inaczej?)
-1. JSON-LD oraz Hydra
+1. Przykład narzędzie, które pomogą zrealizaować pomysły z punktu 3
