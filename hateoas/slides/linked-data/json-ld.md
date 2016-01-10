@@ -1,20 +1,19 @@
 ### JSON-LD
 
-``` http
-GET http://movies.sample/movie/10 HTTP/1.1
-
+``` json
 {
   "@context": {
     "@base": "http://movies.sample/",
     "@vocab": "http://movies.sample/api#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
     "cast": { "@type": "@id" },
     "characters": { "@type": "@id" },
-    "sch": "http://schema.org/name",
+    "sch:title": "http://schema.org/name",
     "type": "@type"
   },
   "@id": "/movie/10",
   "type": "Movie",
-  "sch:title": "Shawshank redemption",
+  "sch:title": { "@value": "Shawshank redemption", "@type": "xsd:string" },
   "characters": "/movie/10/characters",
   "cast": "/movie/10/cast"
 }

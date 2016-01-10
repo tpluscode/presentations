@@ -4,7 +4,7 @@
 * Stateless
 * Cacheable
 * Layered system
-* <span class="fragment">Code on demand</span> <span class="fragment">(optional)</span>
+* Code on demand <span class="fragment">(optional)</span>
 
 Note:
 constraints jako wymagania, a nie ograniczenia
