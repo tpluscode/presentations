@@ -2,7 +2,7 @@
 
 <blockquote class="fragment">is about using the Web to connect related data <span class="fragment highlight-red">that wasn't previously linked<span></blockquote>
 
-<!-- .element class="attribution fragment" -->
+<!-- .element class="attribution" -->
 [http://linkeddata.org/](http://linkeddata.org/)
 
 Note:
