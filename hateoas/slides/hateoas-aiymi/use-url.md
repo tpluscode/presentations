@@ -9,7 +9,9 @@ GET http://movies.sample/movie/10 HTTP/1.1
 }
 ```
 
-<pre class="fragment"><code class="json">{
+<pre class="fragment"><code class="http">GET http://movies.sample/movie/10 HTTP/1.1
+
+{
   "id": "http://movies.sample/movie/10",
   "title": "Shawshank redemption"
 }</code></pre>

@@ -4,6 +4,25 @@
     "agenda.md",
     [
         "rest/index.md",
+        {
+            "filename": "hateoas-aiymi/haters-gonna-hateoas.md",
+            "attr": {
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "hateoas-aiymi/haters-gonna-hateohs.md",
+            "attr": {
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "hateoas-aiymi/haters-gonna-hateoass.md",
+            "attr": {
+                "data-transition": "none"
+            }
+        },
+        "rest/index2.md",
         "rest/fielding.md",
         {
             "filename": "rest/definition.md",
@@ -27,7 +46,8 @@
         {
             "filename": "misconceptions/identifiers.md",
             "attr": {
-                "data-background": "img/Fingerprints_taken_by_William_James_Herschel_1859-1860.jpg"
+                "data-background": "img/Fingerprints_taken_by_William_James_Herschel_1859-1860.jpg",
+                "data-background-opaque": "true"
             }
         },
         "misconceptions/uri-conventions.md",
@@ -57,36 +77,6 @@
     ],
     [
         "hateoas-aiymi/index.md",
-        {
-            "filename": "hateoas-aiymi/haters-gonna-hate.md",
-            "attr": {
-                "data-transition": "none"
-            }
-        },
-        {
-            "filename": "hateoas-aiymi/haters-gonna-hateoas.md",
-            "attr": {
-                "data-transition": "none"
-            }
-        },
-        {
-            "filename": "hateoas-aiymi/haters-gonna-hateohs.md",
-            "attr": {
-                "data-transition": "none"
-            }
-        },
-        {
-            "filename": "hateoas-aiymi/haters-gonna-hateoats.md",
-            "attr": {
-                "data-transition": "none"
-            }
-        },
-        {
-            "filename": "hateoas-aiymi/haters-gonna-hateoass.md",
-            "attr": {
-                "data-transition": "none"
-            }
-        },
         "hateoas-aiymi/use-url.md",
         "hateoas-aiymi/use-url2.md",
         {
@@ -135,6 +125,6 @@
         "linked-data/summary.md"
     ],
     "summary.md",
-    "thank-you.md",
-    "images.md"
+    "images.md",
+    "thank-you.md"
 ]

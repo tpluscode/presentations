@@ -13,3 +13,7 @@
 <li>[Linked Open Data Cloud](http://lod-cloud.net/) by M. Schmachtenberg, C. Bizer, A. Jentzsch and R. Cyganiak - [(CC BY-SA 3.0)](http://creativecommons.org/licenses/by-sa/3.0/)</li>
 </ul>
 </div>
+
+Note:
+
+linki dla zainteresowanych były po drodze

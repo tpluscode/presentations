@@ -1,1 +1,3 @@
-## REST Misconceptions
+## REST - the hard parts
+
+Common mistaeks
