@@ -7,8 +7,8 @@ Tell clients how to do things
 
 {
   "actions": [{
-    "method": "POST",
     "rel": "addToFavourites",
+    "method": "POST",
     "URL": "http://movies.sample/users/tpluskiewicz/favourites",
     "parameters": {
       "movie": "http://movies.sample/movie/10"

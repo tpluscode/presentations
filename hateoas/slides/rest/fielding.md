@@ -1,4 +1,4 @@
-## Re: REST
+## REST
 
 _Architectural Styles and the Design <br> of Network-based Software Architectures_
 

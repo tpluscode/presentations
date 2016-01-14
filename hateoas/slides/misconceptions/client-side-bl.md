@@ -1,18 +1,23 @@
 ### Exhibit 5: Client-side business logic
 
-``` html
-<form>
-    <button on-click="postForm">Save</button>
-</form>
-```
-<pre class="fragment"><code class="javascript">this.postForm = function() {
-    if((theResource.isDraft && permissions.canSave) === false) {
+``` javascript
+function deleteMovie(movie) {
+    if (movie.isPublished) {
         return false;
     }
 
-    // post the form here
+    $.delete('http://movies.sample/movie/' + movie.id);
 }
-</code></pre>
+
+function saveMovie(movie) {
+    if (movie.id === 0) {
+        $.post('http://movies.sample/movies/');
+    }
+    else {
+      $.put('http://movies.sample/movie/' + movie.id);
+    }
+}
+```
 
 Note:
 

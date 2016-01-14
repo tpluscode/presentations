@@ -1,9 +1,3 @@
-## Re: REST
+## HATEOAS
 
-Representational State Transfer
-
-Note:
-
-**zapytać kto pisał aplikacje REST**
-
-**zapytać kto uważa, że rozumie REST**
+***H***ypermedia ***A***s ***T***he ***E***ngine ***O***f ***A***pplication ***S***tate

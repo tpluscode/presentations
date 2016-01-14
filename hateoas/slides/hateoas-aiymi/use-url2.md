@@ -8,7 +8,9 @@ GET http://movies.sample/user/tpluskiewicz HTTP/1.1
 }
 ```
 
-<pre class="fragment"><code class="json">{
+<pre class="fragment"><code class="http">GET http://movies.sample/user/tpluskiewicz HTTP/1.1
+
+{
   "favourites": [
     "http://movies.sample/movie/10",
     "http://movies.sample/movie/12",
