@@ -1,4 +1,4 @@
-[![haters gonna hate](img/HatersGonnaHateoas.jpg)](http://www.timelessrepo.com/haters-gonna-hateoas)
+<a href="http://www.timelessrepo.com/haters-gonna-hateoas"><img class="full-image" src="img/HatersGonnaHateoas.jpg" alt="haters gonna hate" /></a>
 
 Note:
 
