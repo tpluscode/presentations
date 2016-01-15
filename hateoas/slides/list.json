@@ -10,18 +10,6 @@
                 "data-transition": "none"
             }
         },
-        {
-            "filename": "hateoas-aiymi/haters-gonna-hateohs.md",
-            "attr": {
-                "data-transition": "none"
-            }
-        },
-        {
-            "filename": "hateoas-aiymi/haters-gonna-hateoass.md",
-            "attr": {
-                "data-transition": "none"
-            }
-        },
         "rest/index2.md",
         "rest/fielding.md",
         {

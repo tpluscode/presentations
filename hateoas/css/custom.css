@@ -16,3 +16,7 @@ section[data-background-opaque] {
 .print-pdf .reveal .slide-background {
     opacity: 0.2!important;
 }
+
+.print-pdf .reveal .full-image {
+    max-height: 600px;
+}
