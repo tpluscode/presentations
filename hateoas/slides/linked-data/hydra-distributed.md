@@ -8,6 +8,7 @@ Link: <http://movies.sample/api/documentation.jsonld>;
 
 {
   "@context": { ... }
-  "@id": "/movie/10"
+  "@id": "/movie/10",
+  "tags": "/movie/10/tags"
 }
 ```
