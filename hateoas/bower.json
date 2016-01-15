@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "reveal.js": "~2.6.1",
-    "emo-ji": "emo-js#~1.0.4"
+    "emo-ji": "emo-js#~1.0.4",
+    "webcomponentsjs": "~0.7.20"
   }
 }
