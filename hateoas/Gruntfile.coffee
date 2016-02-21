@@ -30,9 +30,10 @@ module.exports = (grunt) ->
                     src: [
                         'hateoas/slides/**'
                         'hateoas/bower_components/**'
-                        'hateoas/js/**',
+                        'hateoas/js/**'
                         'hateoas/img/**'
                         'hateoas/css/**'
+                        'hateoas/fielding_dissertation.pdf'
                     ]
                     dest: 'dist'
                 },{
