@@ -1,3 +1,0 @@
-## HAL
-
-### Hypertext Application Language

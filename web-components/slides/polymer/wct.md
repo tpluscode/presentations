@@ -1,2 +1,0 @@
-## Polymer
-### Web Component Tester
