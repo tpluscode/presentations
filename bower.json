@@ -2,6 +2,8 @@
   "name": "git-versioning-presentation",
   "private": true,
   "dependencies": {
-    "reveal.js": "~2.6.1"
+    "reveal.js": "~2.6.1",
+      "emo-ji": "emo-js#~1.0.4",
+      "webcomponentsjs": "~0.7.20"
   }
 }
