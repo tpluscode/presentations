@@ -3,7 +3,11 @@
   "private": true,
   "dependencies": {
     "reveal.js": "~2.6.1",
-      "emo-ji": "emo-js#~1.0.4",
-      "webcomponentsjs": "~0.7.20"
+    "emo-ji": "emo-js#~1.0.4",
+    "webcomponentsjs": "~0.7.20",
+    "google-map": "~1.1.10",
+    "polymer": "Polymer/polymer",
+    "requirejs": "~2.1.17",
+    "cryptojslib": "~3.1.2"
   }
 }
