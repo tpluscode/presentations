@@ -41,16 +41,9 @@ module.exports = (grunt) ->
                     'chmod +x _scripts/prepareGhPages.sh',
                     'sh _scripts/prepareGhPages.sh'
                 ].join('&&')
-            bowerInstall:
-                command:
-                    'sh _scripts/bowerInstall.sh'
 
     grunt.loadNpmTasks('grunt-run-grunt')
     grunt.loadNpmTasks('grunt-shell')
-
-    grunt.registerTask 'bower-install', [
-        'shell:bowerInstall'
-    ]
 
     grunt.registerTask 'deploy', [
         'shell:prepareGithubPages'
