@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>Polymer and reflux.js</title>
+        <title>WS-REST 2016</title>
         <meta name="description" content="Implement">
         <meta name="author" content="Tomasz Pluskiewicz <tpluskiewicz@t-code.pl>">
 
@@ -44,12 +44,7 @@
                         <section>
                             
                                 
-    <section data-markdown="slides/index.md"></section>
-
-
-                            
-                                
-    <section data-markdown="slides/index2.md"></section>
+    <section id="more-hypermedia" data-markdown="slides/more-hypermedia/index.md"></section>
 
 
                             
@@ -61,27 +56,7 @@
                         <section>
                             
                                 
-    <section data-background="/polymer-flux/images/watch.jpg" data-markdown="slides/components/index.md"></section>
-
-
-                            
-                                
-    <section data-background="/polymer-flux/images/watch.jpg" data-markdown="slides/components/custom-elements.md"></section>
-
-
-                            
-                                
-    <section data-background="/polymer-flux/images/watch.jpg" data-markdown="slides/components/templates.md"></section>
-
-
-                            
-                                
-    <section data-background="/polymer-flux/images/watch.jpg" data-markdown="slides/components/imports.md"></section>
-
-
-                            
-                                
-    <section data-background="/polymer-flux/images/watch.jpg" data-markdown="slides/components/shadow-dom.md"></section>
+    <section id="missing-pieces" data-markdown="slides/missing-pieces/index.md"></section>
 
 
                             
@@ -93,90 +68,11 @@
                         <section>
                             
                                 
-    <section data-markdown="slides/polymer/index.md"></section>
-
-
-                            
-                                
-    <section data-background="/polymer-flux/images/ring.jpeg" data-markdown="slides/polymer/features.md"></section>
-
-
-                            
-                                
-    <section data-background="/polymer-flux/images/chain%20broken.jpg" data-markdown="slides/polymer/breaking-changes.md"></section>
+    <section id="rest-stack" data-markdown="slides/rest-stack/index.md"></section>
 
 
                             
                         </section>
-                    
-                
-                    
-                    
-                        <section>
-                            
-                                
-    <section data-markdown="slides/flux/index.md"></section>
-
-
-                            
-                                
-    <section data-background="/polymer-flux/images/genesis.jpg" data-markdown="slides/flux/mvc.md"></section>
-
-
-                            
-                                
-    <section data-background="/polymer-flux/images/light.jpg" data-markdown="slides/flux/flux.md"></section>
-
-
-                            
-                                
-    <section data-markdown="slides/flux/react.md"></section>
-
-
-                            
-                                
-    <section data-markdown="slides/flux/polymer.md"></section>
-
-
-                            
-                                
-    <section data-markdown="slides/flux/reflux.md"></section>
-
-
-                            
-                        </section>
-                    
-                
-                    
-                        
-    <section data-background-video="/polymer-flux/video/rollercoaster.mp4" data-markdown="slides/demo.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/summary.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/links.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-markdown="slides/thank-you.md"></section>
-
-
-                    
                     
                 
             </div>
@@ -206,10 +102,10 @@
                     { src: '/bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
                     { src: '/bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
                     { src: '/bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
-                    // { src: '/bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
-                    //{ src: '/bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+                    // { src: 'bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                    //{ src: 'bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 
-                    { src: '/assets/js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+                    { src: '/assetsjs/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
                 ]
             });
 

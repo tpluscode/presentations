@@ -1,3 +1,3 @@
 ### How it works
 
-![zoltu prerelease vesions](/img/git-ver-prerelease.png)
+![zoltu prerelease vesions](/git-versioning/img/git-ver-prerelease.png)

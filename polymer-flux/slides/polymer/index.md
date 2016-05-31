@@ -1,3 +1,3 @@
 ## Polymer
 
-<img src="/images/polymer-logo.svg" style="border: none;" alt="polymer logo" />
+<img src="/polymer-flux/images/polymer-logo.svg" style="border: none;" alt="polymer logo" />

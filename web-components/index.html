@@ -11,13 +11,14 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="bower_components/reveal.js/css/theme/moon.css" id="theme">
+        <link rel="stylesheet" href="/bower_components/reveal.js/css/reveal.min.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/wc.css">
+        <link rel="stylesheet" href="/bower_components/reveal.js/css/theme/moon.css" id="theme">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
         <!-- For syntax highlighting -->
-        <link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css" id="highlight-theme">
+        <link rel="stylesheet" href="/bower_components/reveal.js/lib/css/zenburn.css" id="highlight-theme">
 
         <script src="/bower_components/webcomponentsjs/webcomponents.min.js" ></script>
         <link rel="import" href="/bower_components/google-map/google-map.html" />
@@ -28,7 +29,7 @@
             var link = document.createElement( 'link' );
                 link.rel = 'stylesheet';
                 link.type = 'text/css';
-                link.href = 'bower_components/reveal.js/css/print/pdf.css';
+                link.href = '/bower_components/reveal.js/css/print/pdf.css';
                 document.getElementsByTagName( 'head' )[0].appendChild( link );
             }
         </script>
@@ -297,12 +298,12 @@
             </div>
 
             <div id="logo">
-                <img src="/img/logo.png" alt="pgs logo" />
+                <img src="img/logo.png" alt="pgs logo" />
             </div>
         </div>
 
-        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
-        <script src="bower_components/reveal.js/js/reveal.min.js"></script>
+        <script src="/bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="/bower_components/reveal.js/js/reveal.min.js"></script>
         <script>
             // Configure Reveal
             // Full list of configuration options available here:
@@ -318,16 +319,16 @@
 
                 // Optional libraries used to extend on reveal.js
                 dependencies: [
-                    { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-                    { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-                    { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-                    { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
-                    // { src: 'bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
-                    //{ src: 'bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+                    { src: '/bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: '/bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: '/bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: '/bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: '/bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: '/bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    // { src: '/bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                    //{ src: '/bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 
-                    { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+                    { src: '/assets/js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
                 ]
             });
         </script>

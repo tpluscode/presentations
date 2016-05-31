@@ -1,3 +1,3 @@
 ### Questions
 
-![curiosity](/img/curiosity.jpg)
+![curiosity](img/curiosity.jpg)

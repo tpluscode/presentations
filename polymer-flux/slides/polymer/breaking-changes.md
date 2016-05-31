@@ -12,7 +12,7 @@
   </ul>
 </div>
 <div style="float:left; width:48%">
-  <img alt="polymer 1.0" src="/images/POLYMER%201.0.png" style="border: none;" />
+  <img alt="polymer 1.0" src="/polymer-flux/images/POLYMER%201.0.png" style="border: none;" />
 </div>
 
 [0.5 -> 1.0 Migration guide](https://www.polymer-project.org/1.0/docs/migration.html)

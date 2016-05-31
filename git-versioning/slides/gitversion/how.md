@@ -1,3 +1,3 @@
 ### Example
 
-![GitVersion on TeamCity](/img/gitversion.png)
+![GitVersion on TeamCity](/git-versioning/img/gitversion.png)

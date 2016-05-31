@@ -1,1 +1,1 @@
-![it must be right](/img/must-be-right.gif)
+![it must be right](/gitlink/img/must-be-right.gif)
