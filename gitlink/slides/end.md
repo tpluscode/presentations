@@ -3,5 +3,5 @@
 Questions?
 
 <div class="fragment">
-![applause](/img/applause.gif)
+![applause](/gitlink/img/applause.gif)
 </div>
