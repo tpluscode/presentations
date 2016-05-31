@@ -13,6 +13,7 @@ module.exports = (grunt) ->
                     'paket/Gruntfile.coffee'
                     'polymer-flux/Gruntfile.coffee'
                     'web-components/Gruntfile.coffee'
+                    'ws-rest-2016/Gruntfile.coffee'
                 ]
 
             build:
@@ -26,6 +27,7 @@ module.exports = (grunt) ->
                     'paket/Gruntfile.coffee'
                     'polymer-flux/Gruntfile.coffee'
                     'web-components/Gruntfile.coffee'
+                    'ws-rest-2016/Gruntfile.coffee'
                 ]
 
         shell:

@@ -1,0 +1,26 @@
+[
+    [
+        {
+            "filename": "more-hypermedia/index.md",
+            "attr": {
+                "id": "more-hypermedia"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "missing-pieces/index.md",
+            "attr": {
+                "id": "missing-pieces"
+            }
+        }
+    ],
+    [
+        {
+            "filename": "rest-stack/index.md",
+            "attr": {
+                "id": "rest-stack"
+            }
+        }
+    ]
+]

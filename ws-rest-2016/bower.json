@@ -1,0 +1,7 @@
+{
+  "name": "ws-rest-presentations",
+  "private": true,
+  "dependencies": {
+    "reveal.js": "~2.6.1"
+  }
+}
