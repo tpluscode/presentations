@@ -1,7 +1,0 @@
-{
-  "name": "paket-presentation",
-  "private": true,
-  "dependencies": {
-    "reveal.js": "~2.6.1"
-  }
-}

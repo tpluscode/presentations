@@ -7,31 +7,31 @@
         {
             "filename": "components/index.md",
             "attr": {
-                "data-background": "/images/watch.jpg"
+                "data-background": "/polymer-flux/images/watch.jpg"
             }
         },
         {
             "filename": "components/custom-elements.md",
             "attr": {
-                "data-background": "/images/watch.jpg"
+                "data-background": "/polymer-flux/images/watch.jpg"
             }
         },
         {
             "filename": "components/templates.md",
             "attr": {
-                "data-background": "/images/watch.jpg"
+                "data-background": "/polymer-flux/images/watch.jpg"
             }
         },
         {
             "filename": "components/imports.md",
             "attr": {
-                "data-background": "/images/watch.jpg"
+                "data-background": "/polymer-flux/images/watch.jpg"
             }
         },
         {
             "filename": "components/shadow-dom.md",
             "attr": {
-                "data-background": "/images/watch.jpg"
+                "data-background": "/polymer-flux/images/watch.jpg"
             }
         }
     ],
@@ -40,13 +40,13 @@
         {
             "filename": "polymer/features.md",
             "attr": {
-                "data-background": "/images/ring.jpeg"
+                "data-background": "/polymer-flux/images/ring.jpeg"
             }
         },
         {
             "filename": "polymer/breaking-changes.md",
             "attr": {
-                "data-background": "/images/chain%20broken.jpg"
+                "data-background": "/polymer-flux/images/chain%20broken.jpg"
             }
         }
     ],
@@ -55,13 +55,13 @@
         {
             "filename": "flux/mvc.md",
             "attr": {
-                "data-background": "/images/genesis.jpg"
+                "data-background": "/polymer-flux/images/genesis.jpg"
             }
         },
         {
             "filename": "flux/flux.md",
             "attr": {
-                "data-background": "/images/light.jpg"
+                "data-background": "/polymer-flux/images/light.jpg"
             }
         },
         "flux/react.md",
@@ -71,7 +71,7 @@
     {
         "filename": "demo.md",
         "attr": {
-            "data-background-video": "/video/rollercoaster.mp4"
+            "data-background-video": "/polymer-flux/video/rollercoaster.mp4"
         }
     },
     "summary.md",

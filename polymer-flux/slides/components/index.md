@@ -1,3 +1,3 @@
 ## Web Components
 
-<img src="/images/wc-logo.svg" alt="Web Components logo" style="border: none" />
+<img src="/polymer-flux/images/wc-logo.svg" alt="Web Components logo" style="border: none" />

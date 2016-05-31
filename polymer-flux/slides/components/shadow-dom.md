@@ -2,4 +2,4 @@
 
 Hide component's internals from outside markup
 
-![shadow-dom](/images/shadow-dom.png)
+![shadow-dom](/polymer-flux/images/shadow-dom.png)
