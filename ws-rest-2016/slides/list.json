@@ -13,7 +13,11 @@
             "attr": {
                 "id": "missing-pieces"
             }
-        }
+        },
+        "missing-pieces/awareness.md",
+        "missing-pieces/media-types.md",
+        "missing-pieces/tooling.md",
+        "missing-pieces/user-interface.md"
     ],
     [
         {
