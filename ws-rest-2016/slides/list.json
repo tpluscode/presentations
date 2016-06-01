@@ -27,9 +27,9 @@
             }
         },
         "rest-stack/serialization.md",
-        "rest-stack/api-server.md",
+        "rest-stack/api-backend.md",
         "rest-stack/client-library.md",
-        "rest-stack/user-interface.md",
+        "rest-stack/data-driven-ui.md",
         "rest-stack/adaptive-forms.md"
     ]
 ]
