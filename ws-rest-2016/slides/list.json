@@ -25,6 +25,11 @@
             "attr": {
                 "id": "rest-stack"
             }
-        }
+        },
+        "rest-stack/serialization.md",
+        "rest-stack/api-server.md",
+        "rest-stack/client-library.md",
+        "rest-stack/user-interface.md",
+        "rest-stack/adaptive-forms.md"
     ]
 ]
