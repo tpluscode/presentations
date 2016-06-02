@@ -5,7 +5,17 @@
             "attr": {
                 "id": "more-hypermedia"
             }
-        }
+        },
+        "more-hypermedia/constraints.md",
+        "more-hypermedia/identifiers/tokyo-address.md",
+        "more-hypermedia/identifiers/tokyo-address-envelope.md",
+        "more-hypermedia/identifiers/mistakes.md",
+        "more-hypermedia/identifiers/minting-uris.md",
+
+        "more-hypermedia/links/tokyo-address.md",
+        "more-hypermedia/links/examples.md",
+
+        "more-hypermedia/post-office.md"
     ],
     [
         {
