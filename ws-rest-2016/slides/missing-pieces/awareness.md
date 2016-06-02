@@ -1,5 +1,7 @@
 ### Awareness and patterns
 
+*The dissertation is hard*
+
 The disputes continue
 
 * Resource naming
