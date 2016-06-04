@@ -11,11 +11,19 @@
         "more-hypermedia/identifiers/tokyo-address-envelope.md",
         "more-hypermedia/identifiers/mistakes.md",
         "more-hypermedia/identifiers/minting-uris.md",
+        "more-hypermedia/identifiers/no-routing.md",
 
         "more-hypermedia/links/tokyo-address.md",
+        "more-hypermedia/links/tokyo-address-envelope.md",
         "more-hypermedia/links/examples.md",
 
-        "more-hypermedia/post-office.md"
+        "more-hypermedia/hypermedia/post-office.md",
+        "more-hypermedia/hypermedia/not-static.md",
+        "more-hypermedia/hypermedia/without-hypermedia.md",
+        "more-hypermedia/hypermedia/documentation.md",
+        "more-hypermedia/hypermedia/diy-hypermedia.md",
+        "more-hypermedia/hypermedia/versioning.md",
+        "more-hypermedia/hypermedia/versioning-stepback.md"
     ],
     [
         {

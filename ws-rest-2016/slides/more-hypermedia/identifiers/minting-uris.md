@@ -1,4 +1,4 @@
-### Hacking URIs
+### Bad: Hacking URIs
 
 ``` javascript
 // Chain methods together to easily build complex requests
