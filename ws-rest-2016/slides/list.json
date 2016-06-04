@@ -22,8 +22,10 @@
         "more-hypermedia/hypermedia/without-hypermedia.md",
         "more-hypermedia/hypermedia/documentation.md",
         "more-hypermedia/hypermedia/diy-hypermedia.md",
-        "more-hypermedia/hypermedia/versioning.md",
-        "more-hypermedia/hypermedia/versioning-stepback.md"
+
+        "more-hypermedia/versions/ways.md",
+        "more-hypermedia/versions/stepback.md",
+        "more-hypermedia/versions/example.md"
     ],
     [
         {

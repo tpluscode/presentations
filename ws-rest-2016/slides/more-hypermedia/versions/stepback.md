@@ -1,8 +1,8 @@
 ### Reconsider API Versions
 
-1. Resource itself? <span class="fragment">- go for URI</span>
-1. Representations? <span class="fragment">- don't need versions</span>
-1. Behaviour? <span class="fragment">- don't need versions</span>
+1. Individual resource? <span class="fragment" data-fragment-index="1">- go for URI</span>
+1. Representations? <span class="fragment" data-fragment-index="2">- don't need versions</span>
+1. Behaviour? <span class="fragment" data-fragment-index="2">- don't need versions</span>
 
 Note:
 
