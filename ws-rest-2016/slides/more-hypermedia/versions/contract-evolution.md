@@ -1,4 +1,4 @@
-### API evolution
+### Contract evolution
 
 Before:
 
@@ -16,3 +16,9 @@ After:
     "firstName": "Tomasz",
     "lastName": "Pluskiewicz"
 }</code></pre>
+
+Note:
+
+* deprecate "name" property
+* make it read-only
+* remove it from input contract

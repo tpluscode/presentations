@@ -25,7 +25,8 @@
 
         "more-hypermedia/versions/ways.md",
         "more-hypermedia/versions/stepback.md",
-        "more-hypermedia/versions/example.md"
+        "more-hypermedia/versions/contract-evolution.md",
+        "more-hypermedia/versions/flow-evolution.md"
     ],
     [
         {
