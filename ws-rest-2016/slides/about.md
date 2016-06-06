@@ -1,0 +1,23 @@
+##  Tomasz Pluskiewicz
+
+<div style="float: left; width: 60%">
+  <ul>
+    <li>.NET developer most of the time</li>
+    <li>hooked on the Semantic Web</li>
+    <li>huge fan of Web Component</li>
+    <li>works at <a href="http://pgs-soft.com">PGS Software</a> in Poland</li>
+    <li>
+      <i class="fa fa-twitter"></i>
+      <a href="http://twitter.com/tpluscode">@tpluscode</a>
+    </li>
+    <li>
+      <i class="fa fa-github"></i>
+      <a href="http://github.com/tpluscode">GitHub profile</a>
+    </li>
+    <li>likes public transport <emo-ji type="bus"></emo-ji> <emo-ji type="tram"></emo-ji></li>
+    <ul><li>yet rides his <emo-ji type="bike"></emo-ji> like crazy</li></ul>
+  </ul>
+</div>
+<div style="float: left; width: 40%">
+  <img alt="PGS Software logo" src="https://s.gravatar.com/avatar/1497654c2d1af3cef4987234d1aced57?s=250"/>
+</div>

@@ -8,7 +8,7 @@ public class PersonModule
 {
     public PersonModule(Repository persons) : base("person")
     {
-        Get["{id}"] = _ => persons.Get(_.id);
+        Get["{id}"] => _ => persons.Get(_.id);
         Put["{id}"] => _ => persons.Update(_.id, this.Bind<Person>());
     }
 }

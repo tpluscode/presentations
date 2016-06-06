@@ -1,5 +1,9 @@
 [
     [
+        "index.md",
+        "about.md"
+    ],
+    [
         {
             "filename": "more-hypermedia/index.md",
             "attr": {
