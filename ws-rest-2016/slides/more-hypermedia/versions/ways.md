@@ -1,4 +1,4 @@
-### API Versions
+### How to version an API?
 
 1. In URI?
    ``` http

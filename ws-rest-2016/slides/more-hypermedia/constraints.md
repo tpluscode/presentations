@@ -1,4 +1,4 @@
-## REST Constraints
+### REST Constraints
 
 * Client–server
 * Stateless
