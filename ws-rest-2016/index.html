@@ -44,12 +44,39 @@
                         <section>
                             
                                 
+    <section data-markdown="slides/index.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/about.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
     <section id="more-hypermedia" data-markdown="slides/more-hypermedia/index.md"></section>
 
 
                             
                                 
+    <section data-markdown="slides/more-hypermedia/rest.md"></section>
+
+
+                            
+                                
     <section data-markdown="slides/more-hypermedia/constraints.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/identifiers/index.md"></section>
 
 
                             
@@ -64,6 +91,11 @@
 
                             
                                 
+    <section data-markdown="slides/more-hypermedia/links/tokyo-address.md"></section>
+
+
+                            
+                                
     <section data-markdown="slides/more-hypermedia/identifiers/mistakes.md"></section>
 
 
@@ -74,7 +106,17 @@
 
                             
                                 
-    <section data-markdown="slides/more-hypermedia/links/tokyo-address.md"></section>
+    <section data-markdown="slides/more-hypermedia/identifiers/no-routing.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/links/index.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/links/tokyo-address-envelope.md"></section>
 
 
                             
@@ -84,7 +126,77 @@
 
                             
                                 
-    <section data-markdown="slides/more-hypermedia/post-office.md"></section>
+    <section data-markdown="slides/more-hypermedia/hypermedia/index.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/hypermedia/post-office.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/hypermedia/without-hypermedia.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/hypermedia/documentation.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/hypermedia/not-static.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/hypermedia/diy-hypermedia.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/versions/index.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/versions/ways.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/versions/stepback.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/versions/contract-evolution.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/versions/flow-evolution.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/summary.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/summary2.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/summary3.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/more-hypermedia/thank-you.md"></section>
 
 
                             
@@ -177,7 +289,7 @@
                 center: true,
 
                 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+                transition: 'none', // default/cube/page/concave/zoom/linear/fade/none
 
                 // Optional libraries used to extend on reveal.js
                 dependencies: [
@@ -209,6 +321,12 @@
                 $('.c-v').text(Reveal.getIndices().v);
             } );
 
+        </script>
+
+        <script src="/bower_components/webcomponentsjs/webcomponents.min.js"></script>
+        <script src="/bower_components/emo-ji/dist/emoji.js"></script>
+        <script>
+            document.registerElement('emo-ji', { prototype: window.EmojiElement });
         </script>
 
     </body>

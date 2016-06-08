@@ -1,21 +1,47 @@
 [
     [
+        "index.md",
+        "about.md"
+    ],
+    [
         {
             "filename": "more-hypermedia/index.md",
             "attr": {
                 "id": "more-hypermedia"
             }
         },
+        "more-hypermedia/rest.md",
         "more-hypermedia/constraints.md",
+
+        "more-hypermedia/identifiers/index.md",
         "more-hypermedia/identifiers/tokyo-address.md",
         "more-hypermedia/identifiers/tokyo-address-envelope.md",
+        "more-hypermedia/links/tokyo-address.md",
         "more-hypermedia/identifiers/mistakes.md",
         "more-hypermedia/identifiers/minting-uris.md",
+        "more-hypermedia/identifiers/no-routing.md",
 
-        "more-hypermedia/links/tokyo-address.md",
+        "more-hypermedia/links/index.md",
+        "more-hypermedia/links/tokyo-address-envelope.md",
         "more-hypermedia/links/examples.md",
 
-        "more-hypermedia/post-office.md"
+        "more-hypermedia/hypermedia/index.md",
+        "more-hypermedia/hypermedia/post-office.md",
+        "more-hypermedia/hypermedia/without-hypermedia.md",
+        "more-hypermedia/hypermedia/documentation.md",
+        "more-hypermedia/hypermedia/not-static.md",
+        "more-hypermedia/hypermedia/diy-hypermedia.md",
+
+        "more-hypermedia/versions/index.md",
+        "more-hypermedia/versions/ways.md",
+        "more-hypermedia/versions/stepback.md",
+        "more-hypermedia/versions/contract-evolution.md",
+        "more-hypermedia/versions/flow-evolution.md",
+
+        "more-hypermedia/summary.md",
+        "more-hypermedia/summary2.md",
+        "more-hypermedia/summary3.md",
+        "more-hypermedia/thank-you.md"
     ],
     [
         {
