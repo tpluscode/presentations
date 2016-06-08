@@ -16,12 +16,12 @@
         "more-hypermedia/identifiers/index.md",
         "more-hypermedia/identifiers/tokyo-address.md",
         "more-hypermedia/identifiers/tokyo-address-envelope.md",
+        "more-hypermedia/links/tokyo-address.md",
         "more-hypermedia/identifiers/mistakes.md",
         "more-hypermedia/identifiers/minting-uris.md",
         "more-hypermedia/identifiers/no-routing.md",
 
         "more-hypermedia/links/index.md",
-        "more-hypermedia/links/tokyo-address.md",
         "more-hypermedia/links/tokyo-address-envelope.md",
         "more-hypermedia/links/examples.md",
 
@@ -39,7 +39,9 @@
         "more-hypermedia/versions/flow-evolution.md",
 
         "more-hypermedia/summary.md",
-        "more-hypermedia/summary2.md"
+        "more-hypermedia/summary2.md",
+        "more-hypermedia/summary3.md",
+        "more-hypermedia/thank-you.md"
     ],
     [
         {

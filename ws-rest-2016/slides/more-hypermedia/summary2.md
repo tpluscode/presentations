@@ -3,7 +3,6 @@
 1. REST is not itself without hypermedia
 1. Hypermedia prevents out-of-band information
 1. There is no API - there is just DATA
-1. (Encourage to) read [the dissertation](../hateoas/fielding_dissertation.pdf)
 
 Note:
 

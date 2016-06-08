@@ -1,4 +1,4 @@
-### Link relations
+### Identifiers in real life
 
 <em>Dear seller, <br>please <b>POST</b> the item to my <span style="color:red">delivery address</span> below:</em>
 

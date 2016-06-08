@@ -1,6 +1,13 @@
 ### Adding Links
 
-Inline:
+In HTTP headers:
+
+```
+Link: <510 Durham Court, Cleveland, TN 37312>;
+      rel="return-address"
+```
+
+or inline:
 
 ``` json
 {
@@ -10,11 +17,4 @@ Inline:
     }
   }
 }
-```
-
-or in HTTP headers
-
-```
-Link: <510 Durham Court, Cleveland, TN 37312>;
-      rel="return-address"
 ```

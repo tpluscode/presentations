@@ -1,8 +1,8 @@
 ### Identifier malpractices
 
-* Hacking URIs
-* Debating <em>plural vs singular</em>, etc.
 * URI hierarchies
+* Debating <em>plural vs singular</em>, etc.
+* Hacking URIs
 * URIs instead of `Content-Negotiation`
 * What about query string parameters?
 
