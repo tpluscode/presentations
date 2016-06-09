@@ -1,6 +1,7 @@
 ### Media types
 
-
+* Complete
+* Extensible
 
 Note:
 
