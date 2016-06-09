@@ -14,6 +14,10 @@ $scope.user.one('messages', 123).one('from', 123).getList('unread');
 /user/tpluscode/tweets.json
 ```
 
+```
+/user?id=10 or /user/10
+```
+
 Note:
 
 Restangular: AngularJS service to handle Rest API Restful Resources properly and easily
