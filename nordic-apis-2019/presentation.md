@@ -1,5 +1,5 @@
 autoscale: true
-theme: Letters from Sweden, 4
+theme: Courier, 6
 slide-dividers: #, ##
 footer: Tomasz Pluskiewicz :: ![inline](../github2career/twitter.png) tpluscode :: Nordic APIs Platform Summit :: 2019
 
@@ -160,7 +160,7 @@ Host: sources.wikibus.org
 ```
 
 ## Hydra
-### API Documentation
+### `Link: </doc>; rel="hydra:ApiDocumentation"`
 
 ```json
 {
