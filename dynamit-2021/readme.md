@@ -135,10 +135,10 @@ Every time data changes representation when moved between components, entropy in
 * Follow (open) web standards; make data useful to others
   * uniform resource representations (**RDF**, **[SHACL](https://w3.org/tr/shacl)**)
   * shared vocabularies (**[schema.org](http://schema.org)**, domain-specific, others)
-  * interaction (**HTTP/REST**, [**Hydra**](https://www.hydra-cg.com/spec/latest/core/))
+  * interaction (**HTTP/REST**, [**SPARQL**](https://www.w3.org/TR/sparql11-query/), [**Hydra**](https://www.hydra-cg.com/spec/latest/core/))
 
-^
-Follow your nose
+^Follow your nose
+^Even code is linked as resources
 
 ---
 
@@ -198,7 +198,7 @@ System can easily be split in an agile way
 
 ---
 
-### Example: Access Control
+### Example: Linking domains
 
 ---
 
