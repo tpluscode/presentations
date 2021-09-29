@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "",
+  "@type": "rdfs:Class",
+  "rdfs:subClassOf": { "@id": "schema:Organization" }
+}

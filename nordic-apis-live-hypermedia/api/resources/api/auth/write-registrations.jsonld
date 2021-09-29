@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@vocab": "https://jmk.org.pl/api/",
+    "acl": "http://www.w3.org/ns/auth/acl#"
+  },
+  "@id": "",
+  "@type": "acl:Authorization",
+  "acl:agentGroup": { "@id": "/group/data-owners" },
+  "acl:mode": { "@id": "acl:Write" },
+  "acl:accessToClass": { "@id": "/api/Registration" }
+}

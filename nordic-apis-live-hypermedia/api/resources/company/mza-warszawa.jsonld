@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "",
+  "@type": "/api/Owner",
+  "skos:prefLabel": "Miejskie Zakłady Autobusowe",
+  "schema:location": { "@id": "http://www.wikidata.org/entity/Q270" }
+}

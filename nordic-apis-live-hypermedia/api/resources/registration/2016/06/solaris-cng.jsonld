@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "bus": "https://bus.name/vocab#",
+    "dbo": "http://dbpedia.org/ontology/",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "@id": "",
+  "@type": "/api/Registration",
+  "bus:owner": {
+    "@id": "/company/mza-warszawa"
+  },
+  "bus:vehicle": {
+    "skos:prefLabel": "Solaris Urbino 12 CNG",
+    "schema:numberOfAxles": 2
+  },
+  "dbo:number": 4,
+  "skos:prefLabel": "Sample registration"
+}

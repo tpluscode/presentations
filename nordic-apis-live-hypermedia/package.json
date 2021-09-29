@@ -1,0 +1,14 @@
+{
+  "name": "@tpluscode/hypermedia-live",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Tomasz Pluskiewcz <awesome@hypermedia.app>",
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "dotenv -e .env.lando -- npm run --prefix api bootstrap"
+  },
+  "workspaces": [
+    "api",
+    "explorer"
+  ]
+}

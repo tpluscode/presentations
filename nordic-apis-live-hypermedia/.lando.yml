@@ -1,0 +1,60 @@
+name: hypermedia-live
+env_file:
+  - .env.lando
+services:
+  api:
+    type: node:custom
+    command: npm run --prefix api start
+    ssl: true
+    overrides:
+      image: node:14
+      environment:
+        DEBUG: kossos*,hydra*,hydra-box*,labyrinth*,SPARQL,-labyrinth:request:headers
+    scanner: false
+  store:
+    type: compose
+    volumes:
+      agdata:
+      agconfig:
+    run:
+      - agtool repos create http://$AGRAPH_SUPER_USER:$AGRAPH_SUPER_PASSWORD@127.0.0.1:10035/repositories/hypermedia-live
+    services:
+      image: franzinc/agraph
+      command: /entrypoint.sh
+      shm_size: 1g
+      environment:
+        ENABLE_DATA_WRITE: "true"
+        ENABLE_UPDATE: "true"
+        ENABLE_UPLOAD: "true"
+      volumes:
+        - agdata:/agraph/data
+        - agconfig:/agraph/etc
+  trifid:
+    type: compose
+    app_mount: false
+    ssl: true
+    services:
+      image: zazuko/trifid
+      command: tini -- /start.sh
+      environment:
+        DEBUG: "trifid*"
+      volumes:
+        - ./trifid/start.sh:/start.sh
+  ontodia:
+    type: node
+    command: npx wsrun -p @tpluscode/hypermedia-live-explorer -c start --disable-host-check --host 0.0.0.0
+
+tooling:
+  agtool:
+    service: store
+    cmd: agtool
+
+proxy:
+  store:
+    - db.hypermedia-live.lndo.site:10035
+  api:
+    - hypermedia-live.lndo.site:8888
+  trifid:
+    - trifid.hypermedia-live.lndo.site:8080
+  ontodia:
+    - explore.hypermedia-live.lndo.site:8080

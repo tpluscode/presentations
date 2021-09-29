@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://jmk.org.pl/api/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "",
+  "@type": "as:Create",
+  "as:actor": { "@id": "/user/john-doe" },
+  "as:object": { "@id": "/registration/2016/06/solaris-cng" },
+  "as:startTime": {
+    "@value": "2021-09-21T19:13:00+02:00",
+    "@type": "xsd:dateTime"
+  }
+}

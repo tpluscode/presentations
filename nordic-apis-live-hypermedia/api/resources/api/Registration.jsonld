@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "dbo": "http://dbpedia.org/ontology/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "@vocab": "http://www.w3.org/ns/shacl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "",
+  "@type": ["rdfs:Class", "NodeShape"],
+  "property": [{
+    "path": "skos:prefLabel",
+    "maxCount": 1
+  }, {
+    "path": "dbo:number",
+    "minCount": 1,
+    "maxCount": 1,
+    "datatype": "xsd:integer"
+  }]
+}

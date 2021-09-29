@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "https://jmk.org.pl/api/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org/",
+    "code": "https://code.described.at/"
+  },
+  "@id": "",
+  "@type": [
+    "schema:UpdateAction",
+    "hydra:Operation"
+  ],
+  "hydra:title": "Update Registration",
+  "knossos:supportedBy": {"@id": "/api/Registration" },
+  "hydra:expects": {"@id": "/api/Registration" },
+  "hydra:method": "PUT",
+  "code:implementedBy": {
+    "@type": "code:EcmaScript",
+    "code:link": "node:lib/registration/update.js"
+  }
+}

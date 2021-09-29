@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#"
+  },
+  "@id": "",
+  "@type": "vcard:Group",
+  "rdfs:label": "Data owners",
+  "vcard:hasMember": {
+    "@id": "/user/john-doe"
+  }
+}
