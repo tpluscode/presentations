@@ -18,6 +18,8 @@ footer: Tomasz Pluskiewicz :: ![inline](../../github2career/twitter.png) tplusco
 
 ^This still works on ISO/OSI level of HTTP, TCP, IP
 
+^ we need to be able to design/implement each aspect (data, object, resource, representation) independently without breaking the others.
+
 ---
 
 ## First, history
@@ -43,7 +45,7 @@ footer: Tomasz Pluskiewicz :: ![inline](../../github2career/twitter.png) tplusco
 
 [^Fielding]: [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation_2up.pdf)
 
-^The name “Representational State Transfer” is intended to evoke an image of how a well-designed Web application behaves: a network of web pages (a virtual state-machine), where the user progresses through the application by selecting links (state transitions), resulting in the next page (representing the next state of the application) being transferred to the user and rendered for their use.
+^The name “Representational State Transfer” is intended to evoke an image of how a well-designed Web application behaves: a network of web pages, where the user progresses through the application by selecting links, resulting in the next page being transferred to the user and rendered for their use.
 
 ---
 [.background-color: #000000]
@@ -237,6 +239,15 @@ Shape of `Registration` resources [^shacl]
 
 ---
 
+## Summary
+
+1. Everything is a a resource
+2. Link to other resources
+3. Use shared vocabularies
+4. Do not hard code resource semantics in client code
+
+---
+
 ## Resources (no pun intended)
 
 This presentation: [tpluscode@github/presentations/nordic-apis-live-hypermedia](https://github.com/tpluscode/presentations/tree/master/nordic-apis-live-hypermedia)
@@ -262,3 +273,4 @@ This presentation: [tpluscode@github/presentations/nordic-apis-live-hypermedia](
 - [Hydra W3C Community Group](https://hydra-cg.com/)
 - [Basic Access Control ontology](https://solid.github.io/web-access-control-spec/)
 - [SOLID Project](https://solidproject.org)
+- [Activity Streams](https://www.w3.org/TR/activitystreams-core/)
